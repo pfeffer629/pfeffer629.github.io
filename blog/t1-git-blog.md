@@ -13,4 +13,4 @@ In the context of coding, version tracking allows developers to change code. Man
 
 Github is great because you can share your genius coding knowledge with the world, and help others that may not be as incredible as you. Others can also make changes to your code, and improve them if somehow, you missed or didn't think of something.
 
-Incredible.. I know.
+Incredible.. I know. 
