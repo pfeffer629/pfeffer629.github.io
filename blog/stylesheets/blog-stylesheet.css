@@ -12,7 +12,7 @@
 }
 
 .text-area {
-	margin-top: -300px;
+	vertical-align: text-top;
 }
 
 h3 {
@@ -21,7 +21,7 @@ h3 {
 
 #side-bar {
 	border: 2px solid;
-	height: 1050px;
+	height: 850px;
 	width: 200px;
 	display: inline-block;
 	margin-top: -450px;
