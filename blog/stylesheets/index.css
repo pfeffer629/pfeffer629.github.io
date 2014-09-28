@@ -5,7 +5,7 @@ body {
 
 #Content {
 	width: 800px;
-	height: 730px;
+	height: 560px;
 	margin: 0px auto;
 	text-align: left;
 	padding: 10px;
@@ -21,29 +21,22 @@ body {
 	border: 2px solid white;
 }
 
-#side-bar {
-	width: 295px;
-	height: 525px;
-	margin: 5px auto;
+#picture {
+	margin-top: 5px;
+	width: 200px;
+}
+
+#contact {
 	border: 2px solid white;
 	float: right;
+	margin-top: 5px;
+	height: 200px;
+	width: 595px;
 }
 
-.entry {
-	margin-top: 10px;
-	float: left;
-}
-
-td {
-	vertical-align: top;
-}
-
-.entry-table {
-	width: 500px;
-	height: 400px;
+#about {
 	border: 2px solid white;
-}
-
-p {
-	font-size: small;
+	margin-top: 5px;
+	height: 150px;
+	width: 800px;
 }
