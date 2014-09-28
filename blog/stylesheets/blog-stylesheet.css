@@ -1,0 +1,33 @@
+#top-bar {
+	border: 2px solid;
+	border-collapse: separate;
+    border-spacing: 100px 0px;
+}
+
+.entries {
+	border: 2px solid;
+	height: 200px;
+	width: 600px;
+	display: inline-block;
+}
+
+.text-area {
+	margin-top: -300px;
+}
+
+h3 {
+	margin-left: 400px
+}
+
+#side-bar {
+	border: 2px solid;
+	height: 1050px;
+	width: 200px;
+	display: inline-block;
+	margin-top: -450px;
+	margin-left: 620px;
+}
+
+#entries {
+	display: inline-block;
+}
