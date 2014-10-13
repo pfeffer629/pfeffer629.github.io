@@ -1,0 +1,9 @@
+This week we discovered the benefits of using enumerables. They greatly simplified our code, making it much more clean and efficient. One enumerable that I didn't use this week, but has the potential to be very useful is Enumerable#cycle.
+
+Enumerable#cycle, like its name, cycles through elements. It continues the cycle infinitely or until the coder specifies it to end. According to ruby docs, an example of the code would look like this:
+
+a = ["a", "b", "c"]
+a.cycle { |x| puts x }  # print, a, b, c, a, b, c,.. forever.
+a.cycle(2) { |x| puts x }  # print, a, b, c, a, b, c.
+
+I can see the use in this if someone wanted to iterate over elements multiple times, or until something happened.
