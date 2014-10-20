@@ -1,0 +1,86 @@
+<html>
+	<head>
+  	<title>Mark's Blog</title>
+    <link rel="stylesheet" type="text/css" href="../blog/stylesheets/blog-stylesheet.css">
+	</head>
+
+	<div id="content">
+		<table>
+			<td>
+				<tr>
+					<span id="logo"><img src="https://www.graphicsprings.com/filestorage/logos/4690/3ba07a7fc67e80d6a056719664f36078.svg?ts=1411886940"/></span>
+				</tr>
+			</td>
+		</table>
+
+		<table id="menu-bar">
+			<tr>
+				<td><a href="../index.html">Home</a></td>
+				<td><a href="www.pfeffer629.github.io/">Projects</a></td>
+				<td><a href="www.pfeffer629.github.io/blog/t1-git-blog.html">Blog</a></td>
+				<td><a href="#">Resources</a></td>
+				<td><a href="#">About</a></td>
+				<td><a href="#">Contact</a></td>
+			</tr>
+		</table>
+
+		<table id="side-bar">
+			<tr>
+				<td id="popular">Popular</td>
+			</tr>
+			<tr>
+				<td id="similar">Similar</td>
+			</tr>
+			<tr>
+				<td id="tags">Tags</td>
+			</tr>
+		</table>
+		
+		<table class="entry">
+			<tr>
+				<td><p class="entry-title">Thinking Styles</p></td>
+			</tr>
+			<tr>
+				<td><p><span="entry-date">10/5/14</span></p></td>
+			</tr>
+			<tr>
+				<table class="entry-table">
+					<tr>
+						<td class="blog-entry">
+							<p>This week, we learned a lot about ruby. We especially did a lot of work with using classes. Classes are very useful in ruby, as they allow for the programmer to organize methods and variables within a class. An example of this could be the class dog, which takes a name as an input:
+
+							<p>class dog
+								def initialize(name)
+									@name = name
+								end
+							end</p>
+
+							<p>In this example, when someone wants to create a new dog, they can type in dog.new("Dog's name"). Now we have a dog! This is useful because now, we can create methods that only dogs can do, such as:</p>
+
+							<p>class dog
+								def bark
+									puts "Woof, Woof!"
+								end
+							end</p>
+
+							<p>#bark can only be applied to dogs because it is within the dog class. Another interesting thing that is unique to classes is something known as instance variables. If we go back to the original code, there is a line @name = name. @name is known as an instance variable. What this means is that just like the method, it can only be accessed within the class. For example, we can write:</p>
+
+							<p>class dog
+								def whats_your_name?
+									puts @name
+								end
+							end</p>
+
+							<p>@name was set equal in a different method, but it is still accessible because of that little @ symbol.</p></td>
+					</tr>
+				</table>
+			</tr>
+		</table>
+		<table id="prev-next">
+			<tr>
+				<td><a href="t4-arrays-hashes">Prev</a></td>
+				<td>Next</td>
+			</tr>
+		</table>
+	</div>
+</html>
