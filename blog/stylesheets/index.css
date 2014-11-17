@@ -1,24 +1,25 @@
 body {
-	margin: 30px; 
 	background-color: black;
 }
 
 #Content {
-	width: 800px;
-	height: 560px;
 	margin: 0px auto;
 	text-align: left;
 	padding: 10px;
 	border: 2px solid white;
 	background-color: gray;
-	font-family: "Verdana";
-	font-size: small;
+	font-family: helvetica;
+	font-weight: bold;
+	width: 70%;
+
 }
 
 #menu-bar {
-	width: 800px;
+	width: 100%;
 	margin: 0px auto;
 	border: 2px solid white;
+	font-family: helvetica;
+	font-weight: bold;
 }
 
 #picture {
@@ -27,16 +28,25 @@ body {
 }
 
 #contact {
-	border: 2px solid white;
+	border: 1px solid white;
 	float: right;
 	margin-top: 5px;
 	height: 200px;
-	width: 595px;
+	width: 77%;
+	font-family: helvetica;
+	font-weight: bold;
 }
 
 #about {
 	border: 2px solid white;
 	margin-top: 5px;
-	height: 150px;
-	width: 800px;
+	width: 100%;
+}
+
+#logo {
+	font-family: helvetica;
+	font-weight: bold;
+	text-shadow: 0px 2px 3px white;
+	font-size: 500%
+	
 }
