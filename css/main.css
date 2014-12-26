@@ -9,7 +9,7 @@ body {
     font-weight:bold;
     line-height:24px;
     color:#000;
-    background-image: url('../../imgs/index.jpg');
+    background-image: url('../imgs/index.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 
