@@ -43,7 +43,7 @@ body {
         width:150px;
         text-align:center;
         margin-left:15px;
-        border:2px dashed white;
+        background:white;
     }
 
     #primary ul li:hover{
@@ -91,7 +91,7 @@ body {
         width:150px;
         text-align:center;
         margin-left:15px;
-        border:2px dashed white;
+        background:white;
     }
 
     #return ul li:hover{
