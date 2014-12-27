@@ -1,36 +1,49 @@
+@font-face {
+  font-family: 'BrandonPrinted';
+  src: url('Brandon_Printed/HVD Fonts - Brandon Printed Double.ttf');
+}
+
+/*===================================================*/
+
 * {
     margin:0; 
     padding:0; 
+    font-family: 'BrandonPrinted';
 }
 
+html{
+    background: url('../imgs/index1.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 body {
     font:14px;
     font-weight:bold;
     line-height:24px;
     color:#000;
-    background-image: url('../imgs/index.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
 
 }
 
 #primary {
-    width: 600;
+    width: 700;
     margin:0 auto;
     position:relative;
     position:absolute;
     left:50%;
-    margin-left:-300px;
+    margin-left:-350px;
     top:35%;
 }
 
     #primary ul li {
         display:inline-block;
-        height:125px;
-        width:125px;
+        height:150px;
+        width:150px;
         text-align:center;
         margin-left:15px;
+        border:2px dashed white;
     }
 
     #primary ul li:hover{
@@ -48,6 +61,7 @@ body {
         padding:40% 0 40%;
         text-decoration:none;
         color:#000;
+        text-shadow: 2px 2px 8px white;
     }
             
         #primary ul li:hover a{
@@ -60,16 +74,82 @@ body {
         }
 
 /* =========================================================*/
-/*BLOG PAGE*/
+/*RETURN BUTTON*/
 /* =========================================================*/
 
-.container{
-    background-color: red;
-    width: 0;
+#return {
+    margin: auto;
+    position:relative;
+    position:absolute;
+    left:50%;
+    bottom:5%;
+    margin-left:-50px;
 }
+    #return ul li {
+        display:inline-block; 
+        height:150px;
+        width:150px;
+        text-align:center;
+        margin-left:15px;
+        border:2px dashed white;
+    }
+
+    #return ul li:hover{
+        background:black;
+        -webkit-transition: all 0.4s ease-out;
+        -moz-transition: all 0.4s ease-out;
+        -ms-transition: all 0.4s ease-out;
+        -o-transition: all 0.4s ease-out;
+        transition: all 0.4s ease-out;
+    }
+
+    #return ul li a{
+        font-size:23px;
+        display:block;
+        padding:40% 0 40%;
+        text-decoration:none;
+        color:#000;
+        text-shadow: 2px 2px 8px white;
+    }
+
+         #return ul li:hover a{
+            color:white ;
+            -webkit-transition: all 0.4s ease-out;
+            -moz-transition: all 0.4s ease-out;
+            -ms-transition: all 0.4s ease-out;
+            -o-transition: all 0.4s ease-out;
+            transition: all 0.4s ease-out;
+        }
+
+/* =========================================================*/
+/*BLOG PAGE*/
+/* =========================================================*/
 
 #blog {
     visibility: hidden;
     opacity:0;
     width:0;
 }
+
+#portfolio {
+    visibility: hidden;
+    opacity:0;
+    width:0;
+}
+
+#about {
+    visibility: hidden;
+    opacity:0;
+    width:0;
+}
+
+#contact {
+    visibility: hidden;
+    opacity:0;
+    width:0;
+}
+
+
+/* =========================================================*/
+/*BLOG PAGE*/
+/* =========================================================*/
