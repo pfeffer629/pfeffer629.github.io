@@ -12,7 +12,7 @@
 }
 
 html{
-    background: url('../imgs/index1.jpg') no-repeat center center fixed; 
+    background: url('../imgs/index.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -80,10 +80,10 @@ body {
 #return {
     margin: auto;
     position:relative;
-    position:absolute;
+    position:fixed;
     left:50%;
     bottom:5%;
-    margin-left:-50px;
+    margin-left:-85px;
 }
     #return ul li {
         display:inline-block; 
@@ -151,5 +151,52 @@ body {
 
 
 /* =========================================================*/
-/*BLOG PAGE*/
+/*CONTACT PAGE*/
 /* =========================================================*/
+
+#contact {
+    width: 700;
+    margin:0 auto;
+    position:relative;
+    position:absolute;
+    left:50%;
+    margin-left:-350px;
+    top:35%;
+}
+
+    #contact ul li {
+        display:inline-block;
+        margin-left:15px;
+    }
+
+    #contact ul li:hover{
+        -webkit-transition: all 0.4s ease-out;
+        -moz-transition: all 0.4s ease-out;
+        -ms-transition: all 0.4s ease-out;
+        -o-transition: all 0.4s ease-out;
+        transition: all 0.4s ease-out;
+    }
+
+    #contact ul li img{
+        display:block;
+        opacity: .6;
+        height:150px;
+        width:150px;
+        text-decoration:none;
+        color:#000;
+        text-shadow: 2px 2px 8px white;
+        -webkit-transition: all 0.4s ease-out;
+        -moz-transition: all 0.4s ease-out;
+        -ms-transition: all 0.4s ease-out;
+        -o-transition: all 0.4s ease-out;
+        transition: all 0.4s ease-out;
+    }
+            
+        #contact ul li img:hover {
+            opacity: 1;
+            -webkit-transition: all 0.4s ease-out;
+            -moz-transition: all 0.4s ease-out;
+            -ms-transition: all 0.4s ease-out;
+            -o-transition: all 0.4s ease-out;
+            transition: all 0.4s ease-out;
+        }

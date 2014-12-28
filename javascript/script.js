@@ -1,5 +1,4 @@
 $(document).ready(function() {
-	var height = screen.height
 
   $(".blog_button").on("click", function(e){
     e.preventDefault();
@@ -35,9 +34,9 @@ $(document).ready(function() {
 
   $(".return").on("click", function(e){
     e.preventDefault();
-    // $(document).css("background-color", "red")
-    $(".return").closest("div").animate({opacity: 0}, function(){
-      $('#primary').fadeIn();
+    $(".return").closest("div").animate({opacity: 0}, 800, function(){
+      $(".return").closest("div").css("visibility", "hidden")
+      $('#primary').fadeIn(800);
     });
   })
 
