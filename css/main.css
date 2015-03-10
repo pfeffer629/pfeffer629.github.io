@@ -4,6 +4,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    -webkit-font-smoothing: antialiased;
 }
 
 @font-face {
@@ -36,6 +37,7 @@ nav ul {
     padding: 1.4em 2.8em;
     position: relative;
     color: #fff;
+    font-size: 18px;
 }
 
 .nav{  
@@ -105,11 +107,15 @@ nav ul {
     color: #19A3FF; 
 }
 
-@media only screen and (max-width : 700px) {
-
-    nav li {
-        text-align: center;
-        width: 100%;
-        margin: 0;
-    }
+#content {
+    color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 30px;
+    height: 78vh;
+    overflow: auto;
+    border: 5px solid #19A3FF;
+    background-color: rgba(0,0,0,0.6);
 }
