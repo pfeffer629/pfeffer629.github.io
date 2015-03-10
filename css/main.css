@@ -1,202 +1,115 @@
-@font-face {
-  font-family: 'BrandonPrinted';
-  src: url('Brandon_Printed/HVD Fonts - Brandon Printed Double.ttf');
-}
-
-/*===================================================*/
-
-* {
-    margin:0; 
-    padding:0; 
-    font-family: 'BrandonPrinted';
-}
-
-html{
-    background: url('../imgs/index.jpg') no-repeat center center fixed; 
+html {
+    background: url('../imgs/background.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
-body {
-    font:14px;
-    font-weight:bold;
-    line-height:24px;
-    color:#000;
-
+@font-face {
+    font-family: 'pacifico';
+    src: url('pacifico/pacifico.ttf');
 }
 
-#primary {
-    width: 700;
-    margin:0 auto;
-    position:relative;
-    position:absolute;
-    left:50%;
-    margin-left:-350px;
-    top:35%;
+/*
+=============================
+NAV BAR
+=============================
+*/
+
+nav {
+    display: block;
+    text-align: center;
+    background-color: black;
 }
 
-    #primary ul li {
-        display:inline-block;
-        height:150px;
-        width:150px;
-        text-align:center;
-        margin-left:15px;
-        background:white;
-    }
-
-    #primary ul li:hover{
-        background:black;
-        -webkit-transition: all 0.4s ease-out;
-        -moz-transition: all 0.4s ease-out;
-        -ms-transition: all 0.4s ease-out;
-        -o-transition: all 0.4s ease-out;
-        transition: all 0.4s ease-out;
-    }
-
-    #primary ul li a{
-        font-size:23px;
-        display:block;
-        padding:40% 0 40%;
-        text-decoration:none;
-        color:#000;
-        text-shadow: 2px 2px 8px white;
-    }
-            
-        #primary ul li:hover a{
-            color:white ;
-            -webkit-transition: all 0.4s ease-out;
-            -moz-transition: all 0.4s ease-out;
-            -ms-transition: all 0.4s ease-out;
-            -o-transition: all 0.4s ease-out;
-            transition: all 0.4s ease-out;
-        }
-
-/* =========================================================*/
-/*RETURN BUTTON*/
-/* =========================================================*/
-
-#return {
-    margin: auto;
-    position:relative;
-    position:fixed;
-    left:50%;
-    bottom:5%;
-    margin-left:-85px;
-}
-    #return ul li {
-        display:inline-block; 
-        height:150px;
-        width:150px;
-        text-align:center;
-        margin-left:15px;
-        background:white;
-    }
-
-    #return ul li:hover{
-        background:black;
-        -webkit-transition: all 0.4s ease-out;
-        -moz-transition: all 0.4s ease-out;
-        -ms-transition: all 0.4s ease-out;
-        -o-transition: all 0.4s ease-out;
-        transition: all 0.4s ease-out;
-    }
-
-    #return ul li a{
-        font-size:23px;
-        display:block;
-        padding:40% 0 40%;
-        text-decoration:none;
-        color:#000;
-        text-shadow: 2px 2px 8px white;
-    }
-
-         #return ul li:hover a{
-            color:white ;
-            -webkit-transition: all 0.4s ease-out;
-            -moz-transition: all 0.4s ease-out;
-            -ms-transition: all 0.4s ease-out;
-            -o-transition: all 0.4s ease-out;
-            transition: all 0.4s ease-out;
-        }
-
-/* =========================================================*/
-/*BLOG PAGE*/
-/* =========================================================*/
-
-#blog {
-    visibility: hidden;
-    opacity:0;
-    width:0;
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-#portfolio {
-    visibility: hidden;
-    opacity:0;
-    width:0;
+.nav a {
+    display:block; 
+    font-family: 'pacifico';
+    text-decoration: none;
+    padding: 1.4em 2.8em;
+    position: relative;
+    color: #fff;
 }
 
-#about {
-    visibility: hidden;
-    opacity:0;
-    width:0;
+.nav{  
+  vertical-align: top; 
+  display: inline-block;
 }
 
-#contact {
-    visibility: hidden;
-    opacity:0;
-    width:0;
+.nav li {
+  position: relative;
 }
 
 
-/* =========================================================*/
-/*CONTACT PAGE*/
-/* =========================================================*/
+.nav > li { 
+  float: left; 
+  margin-right: 1px; 
+} 
 
-#contact {
-    width: 700;
-    margin:0 auto;
-    position:relative;
-    position:absolute;
-    left:50%;
-    margin-left:-350px;
-    top:35%;
+.nav > li > a { 
+  margin-bottom: 1px;
 }
 
-    #contact ul li {
-        display:inline-block;
-        margin-left:15px;
-    }
+.nav li i:nth-of-type(1) {
+    transition:0.05s 0s;
+}
+.nav li i:nth-of-type(2) {
+    -webkit-transition:0.05s 0.025s;
+    -o-transition:0.05s 0.025s;
+    transition:0.05s 0.025s;
+}
+.nav li i:nth-of-type(3) {
+    -webkit-transition:0.05s 0.05s;
+    transition:0.05s 0.05s;
+    transition:0.05s 0.05s;
+}
+.nav li i:nth-of-type(4) {
+    -webkit-transition:0.05s 0.075s;
+    -o-transition:0.05s 0.075s;
+    transition:0.05s 0.075s;
+}
+.nav li i:nth-of-type(5) {
+    -webkit-transition:0.05s 0.1s;
+    transition:0.05s 0.1s;
+    transition:0.05s 0.1s;
+}
+.nav li i:nth-of-type(6) {
+    -webkit-transition:0.05s 0.125s;
+    -o-transition:0.05s 0.125s;
+    transition:0.05s 0.125s;
+}
+.nav li i:nth-of-type(7) {
+    -webkit-transition:0.05s 0.15s;
+    -o-transition:0.05s 0.15s;
+    transition:0.05s 0.15s;
+}
+.nav li i:nth-of-type(8) {
+    -webkit-transition:0.05s 0.175s;
+    -o-transition:0.05s 0.175s;
+    transition:0.05s 0.175s;
+}
+.nav li i:nth-of-type(9) {
+    -webkit-transition:0.05s 0.2s;
+    -o-transition:0.05s 0.2s;
+    transition:0.05s 0.2s;
+}
 
-    #contact ul li:hover{
-        -webkit-transition: all 0.4s ease-out;
-        -moz-transition: all 0.4s ease-out;
-        -ms-transition: all 0.4s ease-out;
-        -o-transition: all 0.4s ease-out;
-        transition: all 0.4s ease-out;
-    }
+.nav li:hover i {
+    color: #19A3FF; 
+}
 
-    #contact ul li img{
-        display:block;
-        opacity: .6;
-        height:150px;
-        width:150px;
-        text-decoration:none;
-        color:#000;
-        text-shadow: 2px 2px 8px white;
-        -webkit-transition: all 0.4s ease-out;
-        -moz-transition: all 0.4s ease-out;
-        -ms-transition: all 0.4s ease-out;
-        -o-transition: all 0.4s ease-out;
-        transition: all 0.4s ease-out;
+@media only screen and (max-width : 700px) {
+
+    nav li {
+        text-align: center;
+        width: 100%;
+        margin: 0;
     }
-            
-        #contact ul li img:hover {
-            opacity: 1;
-            -webkit-transition: all 0.4s ease-out;
-            -moz-transition: all 0.4s ease-out;
-            -ms-transition: all 0.4s ease-out;
-            -o-transition: all 0.4s ease-out;
-            transition: all 0.4s ease-out;
-        }
+}
