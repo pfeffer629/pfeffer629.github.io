@@ -37,7 +37,7 @@ nav ul {
     padding: 1.4em 2.8em;
     position: relative;
     color: #fff;
-    font-size: 18px;
+    font-size: 1.2em;
 }
 
 .nav{  
@@ -107,17 +107,24 @@ nav ul {
     color: #19A3FF; 
 }
 
-#content {
+/*
+=============================
+CONTENT
+=============================
+*/
+
+.content {
     color: white;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
     padding: 30px;
+    padding-top: 0px;
     height: 78vh;
     overflow: auto;
     border: 5px solid #19A3FF;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.8);
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
         -ms-animation: fadein 2s; /* Internet Explorer */
@@ -152,4 +159,22 @@ nav ul {
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+.content h1 {
+    font-family: 'pacifico';
+    margin: 10px auto;
+    text-align: center;
+    text-shadow: 4px 4px 2px #000;
+}
+
+.divider {
+    width: 100%;
+    border: 2px solid white;
+    box-shadow: 4px 4px 2px #000;
+}
+
+.content p {
+    color: #fff;
+    font-size: 1em;
 }
