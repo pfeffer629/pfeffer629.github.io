@@ -173,7 +173,7 @@ CONTENT
     display: inline-block;
     margin-top: 20px;
     margin-left: 5px;
-    position: relative;
+    position: fixed;
 }
 
 .divider {
