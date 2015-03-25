@@ -200,5 +200,5 @@ CONTENT
     color: #fff;
     font-size: 1em;
     margin-top: -10px;
-    display: fixed;
+    display: relative;
 }
