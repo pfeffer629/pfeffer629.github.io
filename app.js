@@ -6,6 +6,13 @@ $(document).ready(function(){
  		})
 	});
 
+	$("#about").click(function(){
+ 		$('#result').fadeOut(function(){
+ 			$('#result').fadeIn();
+ 			$('#result').load('pages/about.html');
+ 		})
+	});
+
 	$("#portfolio").click(function(){
  		$('#result').fadeOut(function(){
  			$('#result').fadeIn();
