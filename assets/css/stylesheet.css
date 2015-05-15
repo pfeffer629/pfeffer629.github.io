@@ -240,6 +240,7 @@ footer {
   background-image: url(../img/overlay-bg.png);
   color: #fff;
   text-align: right;
+  text-decoration: none;
   font-family: 'Lato';
   font-size: 1em;
   padding: 15px;
