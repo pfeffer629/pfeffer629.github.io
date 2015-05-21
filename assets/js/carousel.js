@@ -1,10 +1,10 @@
 $(document).ready(function(){
   $('.carousel').slick({
     autoplay: true,
-    dots: true,
+    autoplaySpeed: 7500,
     pauseOnHover: false,
     swipeToSlide: true,
     fade: true,
-    speed: 1000
+    speed: 1500
   });
 });
