@@ -7,4 +7,8 @@ $(document).ready(function(){
     fade: true,
     speed: 1500
   });
+
+  $('.carousel').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+    $('#caption-' + nextSlide + ' h2').typewriter({speed: 80});
+  });
 });

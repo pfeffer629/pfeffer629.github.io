@@ -187,8 +187,6 @@ CAROUSEL
 ================= */
 .carousel {
   width: 100%;
-  /*padding: 2%;*/
-  /*height: 600px;*/
   overflow: hidden;
   position: relative;
 }
@@ -199,6 +197,28 @@ CAROUSEL
 
 .index-text {
   position: relative;
+}
+
+.caption {
+  position: absolute;
+  margin-bottom: 50px;
+  height: 80px;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.4);
+  z-index: 50;
+  width: 100%;
+  line-height: 80px;
+  vertical-align: middle;
+}
+
+.caption h2 {
+  font-family: 'LatoBlack';
+  font-size: 2.6em;
+  color: #000;
+  text-rendering: optimizeLegibility;
+  padding-right: 20px;
+  font-style: italic;
+  float: right;
 }
 
 /* =================
@@ -309,4 +329,18 @@ RESPONSIVE
     width: auto;
     height: 115px;
   }
+
+  .caption {
+    margin-bottom: 20px;
+    height: 60px;
+    line-height: 60px;
+  }
+
+  .caption h2 {
+    font-size: 1.8em;
+  }
+
+  html, body {height: auto;}
+
+  #wrap {min-height: auto;}
 }
