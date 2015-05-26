@@ -203,8 +203,12 @@ CAROUSEL
   position: absolute;
   margin-bottom: 50px;
   height: 80px;
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    );
   bottom: 0;
-  background-color: rgba(255, 255, 255, 0.4);
   z-index: 50;
   width: 100%;
   line-height: 80px;
@@ -214,7 +218,8 @@ CAROUSEL
 .caption h2 {
   font-family: 'LatoBlack';
   font-size: 2.6em;
-  color: #000;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000;
   padding-right: 20px;
   font-style: italic;
   float: right;
@@ -227,6 +232,7 @@ CONTENT
 .index-text {
   padding-bottom: 25px;
   text-align: center;
+  /*color: #9EA09E;*/
 }
 
 .index-text h2 {
