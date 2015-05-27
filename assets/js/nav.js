@@ -9,8 +9,21 @@ $(function() {
   });
   $(window).resize(function(){
     var w = $(window).width();
-    if(w > 440 && menu.is(':hidden')) {
+    if(w > 750 && menu.is(':hidden')) {
       menu.removeAttr('style');
     }
   });
+});
+
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 50){  
+    $('header').addClass("sticky");
+    $('#logo').addClass("sticky");
+    $('.nav-button').addClass("sticky");
+  }
+  else{
+    $('header').removeClass("sticky");
+    $('#logo').removeClass("sticky");
+    $('.nav-button').removeClass("sticky");
+  }
 });
