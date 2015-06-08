@@ -5,12 +5,16 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="quantum2_assets/css/animate.min.css">
     <link rel="stylesheet" type="text/css" href="quantum2_assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="quantum2_assets/css/preloader.css">
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="./quantum2_assets/js/jquery.textillate.js"></script>
-    <script src="./quantum2_assets/js/jquery.lettering.js"></script>
-    <script src="./quantum2_assets/js/text-effects.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="quantum2_assets/js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+    <script src="./quantum2_assets/js/carousel.js"></script>
+    <script src="./quantum2_assets/js/preloader.js"></script>
     <title>Quantum</title>
   </head>
+  
   <body>
 
   <div id="loader-wrapper">
@@ -19,69 +23,117 @@
     <div class="loader-section section-right"></div>
   </div>
 
-    <div id="container">
-      <header>
-        <div>
-          <img src="quantum2_assets/img/logo2.jpg"></img>
-          <nav class="main-nav">
-            <ul>
-              <a href="#rehab"><li>Rehab</li></a>
-              <a href="#"><li>Nursing</li></a>
-              <a href="#"><li>Amenities</li></a>
-              <a href="#"><li>Contact</li></a>
-              <a href="#"><li>Gallery</li></a>
-            </ul>
-          </nav>
-        </div>
-      </header>
-      <div class="carousel">
-        <div id="carousel-text">
-          <h2 id="headline">Raising the bar for quality.</h2>
-          <p id="info">Quantum Rehabilitation and Nursing is a small, boutique rehabilitation center, offering groundbreaking restorative therapy, top-tier nursing, and world-class accommodations. We aim to stand out from the rest by constantly raising the bar for quality</p>
-        </div>
-        <div id="carousel-img"><img src="quantum2_assets/img/rehab 7.jpg"></img></div>
+  <div id="container">
+    <header>
+      <div>
+        <img src="quantum2_assets/img/logo2.jpg"></img>
+        <nav class="main-nav">
+          <ul>
+            <a href="#rehab"><li class="logo-cutout">Rehab</li></a>
+            <a href="#"><li>Nursing</li></a>
+            <a href="#"><li>Amenities</li></a>
+            <a href="#"><li>Contact</li></a>
+            <a href="#"><li>Gallery</li></a>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="carousel">
+      <div class="col-md-4" id="slider-thumbs">
+      
+        <ul id="thumbnails">
+          <li>
+            <a id="carousel-selector-0"><img src="quantum2_assets/img/placeholder.jpg"></a>
+          </li>
+
+          <li>
+            <a id="carousel-selector-1"><img src="quantum2_assets/img/placeholder.jpg"></a>
+          </li>
+
+          <li>
+            <a id="carousel-selector-2"><img src="quantum2_assets/img/placeholder.jpg"></a>
+          </li>
+
+          <li>
+            <a id="carousel-selector-3"><img src="quantum2_assets/img/placeholder.jpg"></a>
+          </li>
+        </ul>
       </div>
 
-      <div class="second-nav">
-        <ul>
-          <li class="col-md-4">
-            <div class="nav-box">
-              <div class="description">
-                <img src="quantum2_assets/img/placeholder.jpg"></img>
-                <h2>Rehab</h2>
-                <p>Realize your potential.</p>
-              </div>
+      <div class="col-md-8">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active" data-slide-number="0">
+              <img src="quantum2_assets/img/rehab 7.jpg" alt="Rehab">
             </div>
-          </li>
-          <li class="col-md-4">
-            <div class="nav-box">
-              <div class="description">
-                <img src="quantum2_assets/img/placeholder.jpg"></img>
-                <h2>Nursing</h2>
-                <p>A personal touch.</p>
-              </div>
+
+            <div class="item" data-slide-number="1">
+              <img src="http://www.engraversnetwork.com/files/placeholder.jpg" alt="placeholder">
             </div>
-          </li>
-          <li class="col-md-4">
-            <div class="nav-box">
-              <div class="description">
-                <img src="quantum2_assets/img/placeholder.jpg"></img>
-                <h2>Amenities</h2>
-                <p>Deluxe accommodations.</p>
-              </div>
-            </div>
-          </li>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
-      <footer>
-        <p>
-          63 Oakcrest Avenue<br>
-          Middle Island, NY 11953<br>
-          Phone: 631-924-8830<br>
-          Fax: 631-924-2661<br>
-        </p>
-      </footer>
     </div>
-  </body>
-  <div class="se-pre-con">
+
+    <div class="content">
+      <p class="wow bounceInUp"><span class="bold">Quantum Rehabilitation and Nursing</span> is a small, <br>
+      boutique rehabilitation center, offering groundbreaking <br>
+      restorative therapy, top-tier nursing, and world-class <br>
+      accommodations. We aim to stand out from the rest <br>
+      by constantly raising the bar for quality.</p>
+    </div>
+
+    <div class="second-nav">
+      <ul>
+        <li class="col-md-4">
+          <div class="nav-box wow slideInLeft">
+            <div class="description">
+              <img src="quantum2_assets/img/placeholder.jpg"></img>
+              <h2>Rehab</h2>
+              <p>Realize your potential.</p>
+            </div>
+          </div>
+        </li>
+        <li class="col-md-4">
+          <div class="nav-box wow slideInDown">
+            <div class="description">
+              <img src="quantum2_assets/img/placeholder.jpg"></img>
+              <h2>Nursing</h2>
+              <p>A personal touch.</p>
+            </div>
+          </div>
+        </li>
+        <li class="col-md-4">
+          <div class="nav-box wow slideInRight">
+            <div class="description">
+              <img src="quantum2_assets/img/placeholder.jpg"></img>
+              <h2>Amenities</h2>
+              <p>Deluxe accommodations.</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <footer>
+      <p class="wow flipInX">
+        63 Oakcrest Avenue<br>
+        Middle Island, NY 11953<br>
+        Phone: 631-924-8830<br>
+        Fax: 631-924-2661<br>
+      </p>
+    </footer>
   </div>
+
+  </body>
 </html>
