@@ -1,22 +1,33 @@
-jQuery(document).ready(function($) {
-  $('#myCarousel').carousel({
-          interval: 5000
-  });
+$(document).ready(function(){
+  var carouselContainer = $('.carousel');
+  var slideInterval = 3000;
+  
+  $('.carousel-caption').hide();
 
-  $('#carousel-text').html($('#slide-content-0').html());
+  setTimeout(function(){
+    var caption = $('#caption1');
+    var captionLight = caption.find('.light');
+    var captionBold = caption.find('.bold');
+    captionLight.addClass("animated fadeIn");
+    captionBold.addClass("animated bounceInDown")
+    caption.show();
+  }, 2800);
 
-  //Handles the carousel thumbnails
-  $('[id^=carousel-selector-]').click( function(){
-    var id_selector = $(this).attr("id");
-    var id = id_selector.substr(id_selector.length -1);
-    var id = parseInt(id);
-    $('#myCarousel').carousel(id);
-  });
+  carouselContainer.on("slid.bs.carousel", function(){
+    var caption = carouselContainer.find('.active').find('.carousel-caption');
+    var captionLight = caption.find('.light');
+    var captionBold = caption.find('.bold');
+    captionLight.addClass("animated fadeIn")
+    captionBold.addClass("animated bounceInDown")
+    caption.show();
+  })
 
-
-  // When the carousel slides, auto update the text
-  $('#myCarousel').on('slid', function (e) {
-    var id = $('.item.active').data('slide-number');
-    $('#carousel-text').html($('#slide-content-'+id).html());
-  });
-});
+  carouselContainer.on("slide.bs.carousel", function(){
+    var caption = carouselContainer.find('.active').find('.carousel-caption');
+    var captionLight = caption.find('.light');
+    var captionBold = caption.find('.bold');
+    captionLight.removeClass("animated fadeIn")
+    captionBold.removeClass("animated bounceInDown")
+    caption.hide();
+  })
+})

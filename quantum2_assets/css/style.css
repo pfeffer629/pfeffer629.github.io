@@ -26,7 +26,7 @@ body {
 HEADER
 ===================== */
 header {
-  background-color: white;
+  background-color: #fff;
   border-bottom: 1px solid black;
   overflow: hidden;
   padding: 10px;
@@ -47,7 +47,7 @@ header img {
 }
 
 .main-nav li {
-  color: black;
+  color: #000;
   float: left;
   font-size: 1.2em;
   padding-top: 30px;
@@ -63,27 +63,22 @@ header img {
 CAROUSEL
 ===================== */
 .carousel {
-  color: #fff;
-  height: 406px;
-  margin-top: 10px;
+  height: 435px;
   overflow: hidden;
+  padding: 5px;
 }
 
-#thumbnails {
-  display: inline;
-  text-align: center;
+.carousel-caption {
+  left: 0;
+  margin-bottom: 150px;
+  margin-left: 60px;
+  position: absolute;
+  text-align: left;
 }
 
-#thumbnails img {
-  border: 4px solid white;
-  height: 82px;
-  margin: 10px;
-  width: auto;
-}
-
-.item {
-  height: auto;
-  width: 100%;
+.carousel-caption h1{
+  color: #fff;
+  font-size: 3em;
 }
 
 /* =====================
@@ -123,7 +118,6 @@ SECOND NAV
   background-color: #a7a9ac;
   border: 1px solid black;
   text-align: center;
-  width: 100%;
 }
 
 .description img {
