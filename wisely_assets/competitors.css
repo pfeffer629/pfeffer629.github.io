@@ -386,15 +386,12 @@ COMPETITORS FORM
   background-color: #363b3c;
   border: 0px;
   border-bottom: 2px solid #494c4d;
+  color: #fff;
   font-family: 'WhitneyLight';
   font-size: 18px;
   padding-bottom: 19px;
   padding-top: 38px;
   text-align: center;
-}
-
-#comp-form #comp-form-wrapper input[type="text"] {
-  color: #fff;
 }
 
 #comp-form #comp-form-wrapper ::-webkit-input-placeholder {
