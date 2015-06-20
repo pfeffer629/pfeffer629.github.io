@@ -513,6 +513,10 @@ COMPETITORS RESPONSIVE
     margin: 0 auto;
   }
 
+  #comp-features .features-header li {
+    font-size: 11px;
+  }
+
   .beacon-hero-wrapper {
     padding-top: 50px;
   }
