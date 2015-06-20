@@ -389,8 +389,9 @@ COMPETITORS FORM
   color: #fff;
   font-family: 'WhitneyLight';
   font-size: 18px;
+  height: auto;
   padding-bottom: 19px;
-  padding-top: 38px;
+  padding-top: 20px;
   text-align: center;
 }
 
@@ -398,12 +399,14 @@ COMPETITORS FORM
    color: #fff;
 }
 
-#comp-form #comp-form-wrapper :-moz-placeholder { /* Firefox 18- */
-   color: #fff;  
+#comp-form #comp-form-wrapper :-moz-placeholder {
+   color: #fff;
+   opacity: 1;
 }
 
-#comp-form #comp-form-wrapper ::-moz-placeholder {  /* Firefox 19+ */
-   color: #fff;  
+#comp-form #comp-form-wrapper ::-moz-placeholder {
+   color: #fff;
+   opacity: 1;
 }
 
 #comp-form #comp-form-wrapper :-ms-input-placeholder {  
