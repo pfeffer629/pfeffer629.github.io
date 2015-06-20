@@ -521,6 +521,10 @@ COMPETITORS RESPONSIVE
     width: 90%;
   }
 
+  #comp-features ul li {
+    padding: 15px 0;
+  }
+
   .beacon-hero-wrapper {
     padding-top: 50px;
   }
