@@ -218,7 +218,7 @@ COMPETITORS FEATURES
   overflow: auto;
 }
 
-#comp-features ul li {
+#comp-features li {
   display: inline-block;
   font-family: 'WhitneyLight';
   font-size: 16px;
@@ -238,7 +238,7 @@ COMPETITORS FEATURES
   text-align: left;
 }
 
-#comp-features ul li {
+#comp-features li {
   padding: 22px 0;
 }
 
@@ -436,7 +436,7 @@ COMPETITORS FOOTER
   padding-bottom: 20px;
 }
 
-#comp-footer .comp-footer-wrapper ul li a {
+#comp-footer .comp-footer-wrapper a {
   color: #38aac3;
   font-family: 'WhitneyLight';
   font-size: 16px;
@@ -451,7 +451,7 @@ COMPETITORS FOOTER
   padding-top: 70px;
 }
 
-#comp-footer p a {
+#comp-footer a {
   color: #38aac3;
 }
 
@@ -531,7 +531,7 @@ COMPETITORS RESPONSIVE
     width: 90%;
   }
 
-  #comp-features ul li {
+  #comp-features li {
     padding: 15px 0;
   }
 
