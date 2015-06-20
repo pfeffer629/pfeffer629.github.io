@@ -471,10 +471,6 @@ COMPETITORS RESPONSIVE
     padding-top: 20px;
   }
 
-  #comp-features ul .features-text {
-    padding-left: 20px;
-  }
-
   .beacon-hero-wrapper {
     padding-top: 74px;
   }
@@ -513,8 +509,16 @@ COMPETITORS RESPONSIVE
     margin: 0 auto;
   }
 
-  #comp-features .features-header li {
-    font-size: 11px;
+  #comp-features {
+    padding-top: 20px;
+  }
+
+  #comp-features h2 {
+    padding-bottom: 20px;
+  }
+
+  #comp-features ul {
+    width: 90%;
   }
 
   .beacon-hero-wrapper {
