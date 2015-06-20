@@ -1,0 +1,527 @@
+@font-face {
+  font-family: GothamMedium;
+  src: url('fonts/Gotham Medium Regular.ttf');
+}
+
+@font-face {
+  font-family: WhitneyBlack;
+  src: url('fonts/Whitney-Black.otf');
+}
+
+@font-face {
+  font-family: WhitneyBlackItalic;
+  src: url('fonts/Whitney-BlackItalic.otf');
+}
+
+@font-face {
+  font-family: WhitneyBlackItalicSC;
+  src: url('fonts/Whitney-BlackItalicSC.otf');
+}
+
+@font-face {
+  font-family: WhitneyBlackSC;
+  src: url('fonts/Whitney-BlackSC.otf');
+}
+
+@font-face {
+  font-family: WhitneyBold;
+  src: url('fonts/Whitney-Bold.otf');
+}
+
+@font-face {
+  font-family: WhitneyBoldItalic;
+  src: url('fonts/Whitney-BoldItalic.otf');
+}
+
+@font-face {
+  font-family: WhitneyBoldItalicSC;
+  src: url('fonts/Whitney-BoldItalicSC.otf');
+}
+
+@font-face {
+  font-family: WhitneyBook;
+  src: url('fonts/Whitney-Book.otf');
+}
+
+@font-face {
+  font-family: WhitneyBookItalic;
+  src: url('fonts/Whitney-BookItalic.otf');
+}
+
+@font-face {
+  font-family: WhitneyBookItalicSC;
+  src: url('fonts/Whitney-BookItalicSC.otf');
+}
+
+@font-face {
+  font-family: WhitneyBookSC;
+  src: url('fonts/Whitney-BookSC.otf');
+}
+
+@font-face {
+  font-family: WhitneyLight;
+  src: url('fonts/Whitney-Light.otf');
+}
+
+@font-face {
+  font-family: WhitneyLightItalic;
+  src: url('fonts/Whitney-LightItalic.otf');
+}
+
+@font-face {
+  font-family: WhitneyItalicSC;
+  src: url('fonts/Whitney-LightSC.otf');
+}
+
+@font-face {
+  font-family: WhitneyMedium;
+  src: url('fonts/Whitney-Medium.otf');
+}
+
+@font-face {
+  font-family: WhitneyMediumItalic;
+  src: url('fonts/Whitney-MediumItalic.otf');
+}
+
+@font-face {
+  font-family: WhitneyMediumItalicSC;
+  src: url('fonts/Whitney-MediumItalicSC.otf');
+}
+
+@font-face {
+  font-family: WhitneySemibold;
+  src: url('fonts/Whitney-Semibold.otf');
+}
+
+@font-face {
+  font-family: WhitneySemiboldItalic;
+  src: url('fonts/Whitney-SemiboldItalic.otf');
+}
+
+@font-face {
+  font-family: WhitneySemiboldItalicSC;
+  src: url('fonts/Whitney-SemiboldItalicSC.otf');
+}
+
+@font-face {
+  font-family: WhitneyBlack;
+  src: url('fonts/Whitney-SemiboldSC.otf');
+}
+
+/* ============================
+COMPETITORS NAV
+============================ */
+
+#comp-nav {
+  height: 143px;
+}
+
+#comp-nav .comp-header-logo {
+  float: left;
+  margin-top: 50px;
+}
+
+/* ============================
+COMPETITORS HERO
+============================ */
+
+#comp-hero {
+  height: 673px;
+  position: relative;
+  width: 100%;
+}
+
+#comp-hero h1 {
+  color: #fff;
+  font-family: 'WhitneyMedium';
+  font-size: 36px;
+  line-height: 46px;
+}
+
+#comp-hero p {
+  color: #fff;
+  font-family: 'WhitneyLight';
+  font-size: 18px;
+  line-height: 46px;
+}
+
+#comp-hero .hero-bg {
+  background-image: url('img/hero-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+#comp-hero .comp-hero-dark-filter {
+  bottom: 0;
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  height: 96px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#comp-hero .comp-hero-dark-filter .blue-quote {
+  color: #38aac3;
+  float: left;
+  font-family: 'GothamMedium';
+  font-size: 73.65px;
+  line-height: 130px;
+}
+
+#comp-hero .comp-hero-dark-filter .hero-quote-text {
+  color: #a9aaaa;
+  font-family: 'WhitneyLight';
+  font-size: 18px;
+  font-weight: 1;
+  padding-top: 35px;
+}
+
+#comp-hero .comp-hero-wrapper #comp-hero-info {
+  padding-top: 200px;
+}
+
+#comp-hero .comp-hero-wrapper #watch-btn {
+  background-image: url('img/watch-btn.png');
+  height: 46px;
+  width: 186px;
+}
+
+#comp-hero .comp-iphone-img {
+  padding-top: 45px;
+}
+
+/* ============================
+COMPETITORS FEATURES
+============================ */
+
+#comp-features {
+  height: 881px;
+}
+
+#comp-features h2 {
+  font-family: 'WhitneyMedium';
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+#comp-features ul {
+  border-bottom: 1px solid #e1e1e1;
+  margin: 0 auto;
+  max-width: 1050px;
+  overflow: auto;
+}
+
+#comp-features ul li {
+  display: inline-block;
+  font-family: 'WhitneyLight';
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+}
+
+#comp-features .feature-col {
+  border-right: 1px solid #e1e1e1;
+}
+
+#comp-features .feature-col li{
+  margin: 0 auto;
+}
+
+#comp-features ul .features-text {
+  text-align: left;
+}
+
+#comp-features ul li {
+  padding: 22px 0;
+}
+
+#comp-features .features-header li {
+  font-family: 'WhitneyMedium';
+  font-size: 13px;
+  color: #38aac3;
+  padding: 0;
+  padding-bottom: 10px;
+}
+
+#comp-features .features-header .features-others {
+  color: #7f7f7f;
+}
+
+
+/* ============================
+BEACON HERO
+============================ */
+
+#comp-beacon-hero {
+  height: 540px;
+  position: relative;
+  width: 100%;
+}
+
+#comp-beacon-hero .beacon-hero-bg {
+  background-image: url('img/beacon-hero-bg.jpg');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.beacon-hero-wrapper {
+  padding-top: 124px;
+}
+
+.beacon-hero-wrapper h1 {
+  color: #fff;
+  font-family: 'WhitneyMedium';
+  font-size: 36px;
+  line-height: 46px;
+}
+
+.beacon-hero-wrapper p {
+  color: #fff;
+  font-family: 'WhitneyLight';
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 31px
+}
+
+.beacon-hero-wrapper img {
+  margin-bottom: 124px;
+}
+
+/* ============================
+COMPETITORS DIAGRAM
+============================ */
+
+#comp-diagram {
+  height: 590px;
+  padding-top: 100px;
+}
+
+#comp-diagram .comp-diagram-header h2 {
+  font-family: 'WhitneyMedium';
+  font-size: 30px;
+  text-align: center;
+}
+
+#comp-diagram .comp-diagram-header h4 {
+  font-family: 'WhitneyLight';
+  font-size: 18px;
+  text-align: center;
+}
+
+#comp-diagram .comp-diagram-wrapper {
+  padding-top: 90px;
+}
+
+#comp-diagram .comp-diagram-text {
+  clear: both;
+  font-family: 'WhitneyBook';
+  font-size: 16px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.comp-diagram-wrapper img{
+  display: block;
+  margin: 0 auto;
+  max-width:100%;
+}
+
+.comp-diagram-wrapper h3 {
+  color: #38aac3;
+  font-family: 'WhitneyMedium';
+  font-size: 22px;
+  padding-top: 37px;
+}
+
+.comp-diagram-wrapper .diagram-left{
+  text-align: left;
+}
+
+.comp-diagram-wrapper .diagram-middle{
+  text-align: center;
+}
+
+.comp-diagram-wrapper .diagram-right{
+  text-align: right;
+}
+
+/* ============================
+COMPETITORS FORM
+============================ */
+
+#comp-form {
+  background-color: #363b3c;
+  height: 700px;
+  text-align: center;
+}
+
+#comp-form #comp-form-wrapper {
+  margin: 100px auto;
+}
+
+#comp-form #comp-form-wrapper h2 {
+  color: #fff;
+  font-family: 'WhitneyMedium';
+  font-size: 30px;
+  line-height: 38px;
+}
+
+#comp-form #comp-form-wrapper .comp-form-info {
+  margin: 50px auto;
+  max-width: 452px;
+}
+
+#comp-form #comp-form-wrapper input {
+  background-color: #363b3c;
+  border: 0px;
+  border-bottom: 2px solid #494c4d;
+  font-family: 'WhitneyLight';
+  font-size: 18px;
+  padding-bottom: 19px;
+  padding-top: 38px;
+  text-align: center;
+}
+
+#comp-form #comp-form-wrapper input[type="text"] {
+  color: #fff;
+}
+
+#comp-form #comp-form-wrapper ::-webkit-input-placeholder {
+   color: #fff;
+}
+
+#comp-form #comp-form-wrapper :-moz-placeholder { /* Firefox 18- */
+   color: #fff;  
+}
+
+#comp-form #comp-form-wrapper ::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff;  
+}
+
+#comp-form #comp-form-wrapper :-ms-input-placeholder {  
+   color: #fff;  
+}
+
+/* ============================
+COMPETITORS FOOTER
+============================ */
+
+#comp-footer {
+  height: 521px;
+}
+
+#comp-footer .comp-footer-wrapper {
+  margin-top: 101px;
+}
+
+#comp-footer .comp-footer-wrapper h4 {
+  font-family: 'WhitneyBook';
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+#comp-footer .comp-footer-wrapper ul li a {
+  color: #38aac3;
+  font-family: 'WhitneyLight';
+  font-size: 16px;
+  line-height: 19.2px;
+  padding-bottom: 22px;
+  text-decoration: none;
+}
+
+#comp-footer p {
+  font-family: 'WhitneyBookItalic';
+  font-size: 16px;
+  padding-top: 70px;
+}
+
+#comp-footer p a {
+  color: #38aac3;
+}
+
+/* ============================
+COMPETITORS RESPONSIVE
+============================ */
+
+@media screen and (max-width:767px) {
+  #comp-hero .comp-hero-wrapper #comp-hero-info {
+    padding-top: 100px;
+  }
+
+  #comp-hero .comp-hero-dark-filter .hero-quote-text {
+    padding-top: 15px;
+  }
+
+  #comp-features {
+    padding-top: 50px;
+  }
+
+  #comp-diagram .comp-diagram-wrapper {
+    padding-top: 20px;
+  }
+
+  #comp-features ul .features-text {
+    padding-left: 20px;
+  }
+
+  .beacon-hero-wrapper {
+    padding-top: 74px;
+  }
+
+  #comp-footer .comp-footer-wrapper {
+    margin-top: 50px;
+    text-align: center
+  }
+
+  #comp-footer .comp-footer-wrapper h4 {
+    padding-bottom: 5px;
+    padding-top: 10px;
+  }
+
+  #comp-footer img {
+    padding-top: 50px;
+  }
+
+  #comp-footer p {
+    padding-top: 20px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:419px) {
+  #comp-hero {
+    text-align: center;
+  }
+
+  #comp-hero .comp-hero-dark-filter .hero-quote-text {
+    padding-top: 10px;
+    text-align: left;
+  }
+
+  #comp-hero .comp-hero-wrapper #watch-btn {
+    margin: 0 auto;
+  }
+
+  .beacon-hero-wrapper {
+    padding-top: 50px;
+  }
+
+  #comp-beacon-hero {
+    text-align: center;
+  }
+
+  #comp-diagram {
+    padding-top: 0;
+  }
+}
