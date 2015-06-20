@@ -418,6 +418,22 @@ COMPETITORS FORM
    color: #fff;  
 }
 
+#comp-form input:focus::-webkit-input-placeholder { 
+  color:transparent; 
+}
+
+#comp-form input:focus:-moz-placeholder { 
+  color:transparent; 
+}
+
+#comp-form input:focus::-moz-placeholder { 
+  color:transparent; 
+}
+
+#comp-form input:focus:-ms-input-placeholder { 
+  color:transparent; 
+}
+
 /* ============================
 COMPETITORS FOOTER
 ============================ */
