@@ -180,11 +180,11 @@ COMPETITORS HERO
   padding-top: 35px;
 }
 
-#comp-hero .comp-hero-wrapper #comp-hero-info {
+#comp-hero #comp-hero-info {
   padding-top: 200px;
 }
 
-#comp-hero .comp-hero-wrapper #watch-btn {
+#comp-hero #watch-btn {
   background-image: url('img/watch-btn.png');
   height: 46px;
   width: 186px;
@@ -234,7 +234,7 @@ COMPETITORS FEATURES
   margin: 0 auto;
 }
 
-#comp-features ul .features-text {
+#comp-features .features-text {
   text-align: left;
 }
 
@@ -460,7 +460,7 @@ COMPETITORS RESPONSIVE
 ============================ */
 
 @media screen and (max-width:767px) {
-  #comp-hero .comp-hero-wrapper #comp-hero-info {
+  #comp-hero #comp-hero-info {
     padding-top: 100px;
   }
 
@@ -505,7 +505,7 @@ COMPETITORS RESPONSIVE
     text-align: center;
   }
 
-  #comp-hero .comp-hero-wrapper #comp-hero-info {
+  #comp-hero #comp-hero-info {
     padding-top: 20px;
   }
 
@@ -515,7 +515,7 @@ COMPETITORS RESPONSIVE
     text-align: left;
   }
 
-  #comp-hero .comp-hero-wrapper #watch-btn {
+  #comp-hero #watch-btn {
     margin: 0 auto;
   }
 
