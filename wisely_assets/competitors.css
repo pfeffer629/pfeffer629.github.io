@@ -556,5 +556,9 @@ COMPETITORS RESPONSIVE
   #comp-diagram {
     padding-top: 0;
   }
+
+  #comp-form #comp-form-wrapper {
+    margin: 50px auto;
+  }
   
 }
