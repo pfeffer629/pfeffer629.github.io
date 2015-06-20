@@ -276,6 +276,7 @@ BEACON HERO
 }
 
 .beacon-hero-wrapper {
+  height: 540px;
   padding-top: 124px;
 }
 
@@ -504,7 +505,12 @@ COMPETITORS RESPONSIVE
     text-align: center;
   }
 
+  #comp-hero .comp-hero-wrapper #comp-hero-info {
+    padding-top: 20px;
+  }
+
   #comp-hero .comp-hero-dark-filter .hero-quote-text {
+    font-size: 14px;
     padding-top: 10px;
     text-align: left;
   }
@@ -514,12 +520,12 @@ COMPETITORS RESPONSIVE
   }
 
   #comp-features {
-    padding-top: 20px;
+    padding-top: 0;
   }
 
   #comp-features h2 {
     padding-bottom: 20px;
-  }
+  }  
 
   #comp-features ul {
     width: 90%;
@@ -529,8 +535,18 @@ COMPETITORS RESPONSIVE
     padding: 15px 0;
   }
 
+  #comp-features .features-header {
+    border: none;
+    overflow: visible;
+    margin-right: 27px;
+  }
+
+  #comp-features .features-header .feature-col{
+    border: none;
+  }
+
   .beacon-hero-wrapper {
-    padding-top: 50px;
+    padding-top: 0;
   }
 
   #comp-beacon-hero {
@@ -540,4 +556,5 @@ COMPETITORS RESPONSIVE
   #comp-diagram {
     padding-top: 0;
   }
+  
 }
