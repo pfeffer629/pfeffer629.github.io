@@ -164,7 +164,7 @@ COMPETITORS HERO
   overflow: hidden;
 }
 
-#comp-hero .comp-hero-dark-filter .blue-quote {
+#comp-hero .blue-quote {
   color: #38aac3;
   float: left;
   font-family: 'GothamMedium';
@@ -172,7 +172,7 @@ COMPETITORS HERO
   line-height: 130px;
 }
 
-#comp-hero .comp-hero-dark-filter .hero-quote-text {
+#comp-hero .hero-quote-text {
   color: #a9aaaa;
   font-family: 'WhitneyLight';
   font-size: 18px;
@@ -250,7 +250,7 @@ COMPETITORS FEATURES
   padding-bottom: 10px;
 }
 
-#comp-features .features-header .features-others {
+#comp-features .features-others {
   color: #7f7f7f;
 }
 
@@ -371,23 +371,23 @@ COMPETITORS FORM
   text-align: center;
 }
 
-#comp-form #comp-form-wrapper {
+#comp-form .comp-form-wrapper {
   margin: 100px auto;
 }
 
-#comp-form #comp-form-wrapper h2 {
+#comp-form .comp-form-wrapper h2 {
   color: #fff;
   font-family: 'WhitneyMedium';
   font-size: 30px;
   line-height: 38px;
 }
 
-#comp-form #comp-form-wrapper .comp-form-info {
+#comp-form .comp-form-wrapper .comp-form-info {
   margin: 50px auto;
   max-width: 452px;
 }
 
-#comp-form #comp-form-wrapper input {
+#comp-form .comp-form-wrapper input {
   background-color: #363b3c;
   border: 0px;
   border-bottom: 2px solid #494c4d;
@@ -400,21 +400,21 @@ COMPETITORS FORM
   text-align: center;
 }
 
-#comp-form #comp-form-wrapper ::-webkit-input-placeholder {
+#comp-form .comp-form-wrapper ::-webkit-input-placeholder {
    color: #fff;
 }
 
-#comp-form #comp-form-wrapper :-moz-placeholder {
-   color: #fff;
-   opacity: 1;
-}
-
-#comp-form #comp-form-wrapper ::-moz-placeholder {
+#comp-form .comp-form-wrapper :-moz-placeholder {
    color: #fff;
    opacity: 1;
 }
 
-#comp-form #comp-form-wrapper :-ms-input-placeholder {  
+#comp-form .comp-form-wrapper ::-moz-placeholder {
+   color: #fff;
+   opacity: 1;
+}
+
+#comp-form .comp-form-wrapper :-ms-input-placeholder {  
    color: #fff;  
 }
 
@@ -464,7 +464,7 @@ COMPETITORS RESPONSIVE
     padding-top: 100px;
   }
 
-  #comp-hero .comp-hero-dark-filter .hero-quote-text {
+  #comp-hero .hero-quote-text {
     padding-top: 15px;
   }
 
@@ -509,7 +509,7 @@ COMPETITORS RESPONSIVE
     padding-top: 20px;
   }
 
-  #comp-hero .comp-hero-dark-filter .hero-quote-text {
+  #comp-hero .hero-quote-text {
     font-size: 14px;
     padding-top: 10px;
     text-align: left;
@@ -541,7 +541,7 @@ COMPETITORS RESPONSIVE
     margin-right: 27px;
   }
 
-  #comp-features .features-header .feature-col{
+  #comp-features .feature-col{
     border: none;
   }
 
@@ -557,7 +557,7 @@ COMPETITORS RESPONSIVE
     padding-top: 0;
   }
 
-  #comp-form #comp-form-wrapper {
+  #comp-form .comp-form-wrapper {
     margin: 50px auto;
   }
   
