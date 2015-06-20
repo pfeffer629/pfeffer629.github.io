@@ -323,6 +323,10 @@ COMPETITORS DIAGRAM
   padding-top: 90px;
 }
 
+#comp-diagram .comp-diagram-wrapper img {
+  width: 100%;
+}
+
 #comp-diagram .comp-diagram-text {
   clear: both;
   font-family: 'WhitneyBook';
