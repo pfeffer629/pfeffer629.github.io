@@ -604,7 +604,7 @@ COMPETITORS RESPONSIVE
   }
 
   .beacon-hero-wrapper p {
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   #comp-diagram {
@@ -630,6 +630,12 @@ COMPETITORS RESPONSIVE
   #comp-form .comp-form-wrapper {
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+
+  #comp-form .comp-form-wrapper .comp-form-info {
+    margin: 0;
+    margin-bottom: 50px;
+    max-width: 452px;
   }
   
 }
