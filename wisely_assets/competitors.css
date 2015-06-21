@@ -372,7 +372,8 @@ COMPETITORS FORM
 }
 
 #comp-form .comp-form-wrapper {
-  margin: 100px auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 #comp-form .comp-form-wrapper h2 {
@@ -398,6 +399,7 @@ COMPETITORS FORM
   padding-bottom: 19px;
   padding-top: 20px;
   text-align: center;
+  width: 100%;
 }
 
 #comp-form .comp-form-wrapper ::-webkit-input-placeholder {
@@ -512,14 +514,20 @@ COMPETITORS RESPONSIVE
     padding-top: 74px;
   }
 
+
+  #comp-footer {
+    height: auto;
+  }
+
   #comp-footer .comp-footer-wrapper {
-    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-top: 20px;
     text-align: center
   }
 
   #comp-footer .comp-footer-wrapper h4 {
     padding-bottom: 5px;
-    padding-top: 10px;
+    padding-top: 30px;
   }
 
   #comp-footer img {
@@ -533,8 +541,15 @@ COMPETITORS RESPONSIVE
 }
 
 @media screen and (max-width:419px) {
+  #comp-hero {
+    height: auto;
+    max-height: 673px;
+    text-align: center;
+  }
+
   #comp-hero .comp-hero-wrapper {
     padding-top: 80px;
+    padding-bottom: 180px;
   }
 
   #comp-hero #comp-hero-info p {
@@ -547,8 +562,15 @@ COMPETITORS RESPONSIVE
     text-align: left;
   }
 
+  #comp-hero #watch-btn {
+    margin: 0 auto;
+  }
+
   #comp-features {
-    padding-top: 30px;
+    height: auto;
+    max-height: 881px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   #comp-features h2 {
@@ -569,8 +591,15 @@ COMPETITORS RESPONSIVE
     border: none;
   }
 
+  #comp-beacon-hero {
+    height: auto;
+    max-height: 540px;
+    text-align: center;
+  }
+
   .beacon-hero-wrapper {
-    padding-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .beacon-hero-wrapper p {
@@ -578,19 +607,28 @@ COMPETITORS RESPONSIVE
   }
 
   #comp-diagram {
-    padding-top: 30px;
+    height: auto;
+    max-height: 590px;
+    padding-top: 50px;
   }
 
   #comp-diagram .comp-diagram-wrapper {
     padding-top: 30px;
   }
 
+  #comp-diagram .comp-diagram-text {
+    padding-bottom: 50px;
+  }
+
   #comp-form {
-    height: 650px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   #comp-form .comp-form-wrapper {
-    margin: 50px auto;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   
 }
