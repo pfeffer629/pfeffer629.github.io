@@ -204,6 +204,7 @@ COMPETITORS FEATURES
 #comp-features h2 {
   font-family: 'WhitneyMedium';
   font-size: 30px;
+  line-height: 38px;
   padding-top: 20px;
   padding-bottom: 70px;
   text-align: center;
@@ -289,7 +290,6 @@ BEACON HERO
   color: #fff;
   font-family: 'WhitneyLight';
   font-size: 18px;
-  line-height: 28px;
   margin-top: 31px
 }
 
@@ -309,6 +309,7 @@ COMPETITORS DIAGRAM
 #comp-diagram .comp-diagram-header h2 {
   font-family: 'WhitneyMedium';
   font-size: 30px;
+  line-height: 38px;
   text-align: center;
 }
 
