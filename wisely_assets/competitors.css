@@ -206,7 +206,7 @@ COMPETITORS FEATURES
   font-family: 'WhitneyMedium';
   font-size: 30px;
   font-weight: bold;
-  margin-top: 20px;
+  padding-top: 20px;
   padding-bottom: 70px;
   text-align: center;
 }
@@ -486,7 +486,7 @@ COMPETITORS RESPONSIVE
     padding-top: 15px;
   }
 
-  #comp-features {
+  #comp-features .comp-features-wrapper {
     padding-top: 50px;
   }
 
@@ -513,7 +513,6 @@ COMPETITORS RESPONSIVE
   .beacon-hero-wrapper {
     padding-top: 74px;
   }
-
 
   #comp-footer {
     height: auto;
@@ -568,12 +567,15 @@ COMPETITORS RESPONSIVE
 
   #comp-features {
     height: auto;
-    max-height: 881px;
+  }
+
+  #comp-features .comp-features-wrapper {
     padding-top: 50px;
     padding-bottom: 50px;
   }
 
   #comp-features h2 {
+    padding-top: 0px;
     padding-bottom: 20px;
   }  
 
