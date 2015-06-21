@@ -492,6 +492,10 @@ COMPETITORS RESPONSIVE
     width: 90%;
   }
 
+  .first-feature {
+    border-top: 1px solid #e1e1e1;
+  }
+
   #comp-diagram .comp-diagram-wrapper {
     padding-top: 20px;
   }
