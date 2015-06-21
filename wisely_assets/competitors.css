@@ -621,12 +621,12 @@ COMPETITORS RESPONSIVE
   }
 
   #comp-form {
+    height: auto;
     margin-top: 0px;
     margin-bottom: 0px;
   }
 
   #comp-form .comp-form-wrapper {
-    height: auto;
     padding-top: 50px;
     padding-bottom: 50px;
   }
