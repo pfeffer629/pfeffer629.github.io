@@ -497,7 +497,7 @@ COMPETITORS RESPONSIVE
   }
 
   #comp-footer .comp-footer-wrapper {
-    margin-top: 50px;
+    padding-top: 50px;
     text-align: center
   }
 
@@ -536,7 +536,7 @@ COMPETITORS RESPONSIVE
   }
 
   #comp-features {
-    padding-top: 0;
+    padding-top: 20px;
   }
 
   #comp-features h2 {
@@ -562,7 +562,7 @@ COMPETITORS RESPONSIVE
   }
 
   .beacon-hero-wrapper {
-    padding-top: 0;
+    padding-top: 20px;
   }
 
   #comp-beacon-hero {
@@ -570,10 +570,11 @@ COMPETITORS RESPONSIVE
   }
 
   #comp-diagram {
-    padding-top: 0;
+    padding-top: 20px;
   }
 
   #comp-form .comp-form-wrapper {
     margin: 50px auto;
-  } 
+  }
+  
 }
