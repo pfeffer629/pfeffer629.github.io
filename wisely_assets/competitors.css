@@ -176,7 +176,6 @@ COMPETITORS HERO
   color: #a9aaaa;
   font-family: 'WhitneyLight';
   font-size: 18px;
-  font-weight: 1;
   padding-top: 35px;
 }
 
@@ -483,7 +482,7 @@ COMPETITORS RESPONSIVE
   }
 
   #comp-hero .hero-quote-text {
-    padding-top: 15px;
+    padding-top: 25px;
   }
 
   #comp-features .comp-features-wrapper {
