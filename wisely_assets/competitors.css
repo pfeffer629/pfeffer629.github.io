@@ -180,7 +180,7 @@ COMPETITORS HERO
   padding-top: 35px;
 }
 
-#comp-hero #comp-hero-info {
+#comp-hero .comp-hero-wrapper {
   padding-top: 200px;
 }
 
@@ -476,7 +476,7 @@ COMPETITORS RESPONSIVE
 ============================ */
 
 @media screen and (max-width:767px) {
-  #comp-hero #comp-hero-info {
+  #comp-hero .comp-hero-wrapper {
     padding-top: 100px;
   }
 
@@ -522,11 +522,11 @@ COMPETITORS RESPONSIVE
   }
 
   #comp-hero .comp-hero-wrapper {
-    padding-top: 100px;
+    padding-top: 50px;
   }
 
-  #comp-hero #comp-hero-info {
-    padding-top: 30px;
+  #comp-hero #comp-hero-info p {
+    padding-top: 20px;
   }
 
   #comp-hero .hero-quote-text {
@@ -567,6 +567,10 @@ COMPETITORS RESPONSIVE
 
   .beacon-hero-wrapper {
     padding-top: 30px;
+  }
+
+  .beacon-hero-wrapper p {
+    margin-top: 10px;
   }
 
   #comp-beacon-hero {
