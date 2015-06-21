@@ -517,10 +517,6 @@ COMPETITORS RESPONSIVE
 }
 
 @media screen and (max-width:419px) {
-  #comp-hero {
-    text-align: center;
-  }
-
   #comp-hero .comp-hero-wrapper {
     padding-top: 80px;
   }
@@ -533,10 +529,6 @@ COMPETITORS RESPONSIVE
     font-size: 14px;
     padding-top: 10px;
     text-align: left;
-  }
-
-  #comp-hero #watch-btn {
-    margin: 0 auto;
   }
 
   #comp-features {
