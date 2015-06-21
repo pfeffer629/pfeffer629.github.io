@@ -492,6 +492,14 @@ COMPETITORS RESPONSIVE
     width: 90%;
   }
 
+  #comp-features .features-header {
+    border: none;
+  }
+
+  #comp-features .feature-col{
+    border: none;
+  }
+
   .first-feature {
     border-top: 1px solid #e1e1e1;
   }
