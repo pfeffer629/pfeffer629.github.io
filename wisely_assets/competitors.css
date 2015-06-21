@@ -488,6 +488,10 @@ COMPETITORS RESPONSIVE
     padding-top: 50px;
   }
 
+  #comp-features ul {
+    width: 90%;
+  }
+
   #comp-diagram .comp-diagram-wrapper {
     padding-top: 20px;
   }
@@ -538,10 +542,6 @@ COMPETITORS RESPONSIVE
   #comp-features h2 {
     padding-bottom: 20px;
   }  
-
-  #comp-features ul {
-    width: 90%;
-  }
 
   #comp-features li {
     padding: 15px 0;
