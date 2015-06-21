@@ -521,6 +521,10 @@ COMPETITORS RESPONSIVE
     text-align: center;
   }
 
+  #comp-hero .comp-hero-wrapper {
+    padding-top: 100px;
+  }
+
   #comp-hero #comp-hero-info {
     padding-top: 50px;
   }
