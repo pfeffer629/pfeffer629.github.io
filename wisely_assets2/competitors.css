@@ -98,7 +98,6 @@ COMPETITORS HERO
   height: 78px;
   width: 100%;
   overflow: hidden;
-  z-index: 10;
 }
 
 .comp-hero .blue-quote {
@@ -106,7 +105,9 @@ COMPETITORS HERO
   float: left;
   font-family: 'GothamMedium';
   font-size: 50px;
+  padding-left: 10px;
   line-height: 100px;
+  z-index: 10;
 }
 
 .comp-hero .hero-quote-text {
@@ -114,7 +115,7 @@ COMPETITORS HERO
   font-family: 'WhitneyLight';
   font-size: 16px;
   line-height: 18px;
-  padding: 28px 0 0 38px;
+  padding: 26px 0 0 68px;
 }
 
 .comp-hero .watch-btn {
@@ -473,7 +474,7 @@ COMPETITORS RESPONSIVE
   }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width: 480px) {
   .comp-nav {
     height: 55px;
   }
@@ -539,6 +540,12 @@ COMPETITORS RESPONSIVE
 
   .comp-footer .comp-footer-wrapper{
     padding-left: 60px;
+  }
+
+  @media screen and (max-width: 419px) {
+    .comp-hero .hero-quote-text {
+      padding-top: 20px;
+    }
   }
 
 }
