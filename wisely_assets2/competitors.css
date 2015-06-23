@@ -98,6 +98,7 @@ COMPETITORS HERO
   height: 78px;
   width: 100%;
   overflow: hidden;
+  z-index: 10;
 }
 
 .comp-hero .blue-quote {
