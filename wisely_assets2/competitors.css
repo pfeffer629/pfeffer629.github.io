@@ -98,7 +98,6 @@ COMPETITORS HERO
   height: 78px;
   width: 100%;
   overflow: hidden;
-  z-index: 10;
 }
 
 .comp-hero .blue-quote {
@@ -115,6 +114,7 @@ COMPETITORS HERO
   font-size: 16px;
   line-height: 18px;
   padding: 28px 0 0 38px;
+  z-index: 10;
 }
 
 .comp-hero .watch-btn {
@@ -490,8 +490,12 @@ COMPETITORS RESPONSIVE
     text-align: center;
   }
 
+  .comp-hero .comp-hero-dark-filter {
+    height: 110px;
+  }
+
   .comp-hero .hero-quote-text {
-    padding-top: 20px;
+    padding-top: 27px;
     text-align: left;
   }
 
