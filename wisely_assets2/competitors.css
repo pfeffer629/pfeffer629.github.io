@@ -113,7 +113,7 @@ COMPETITORS HERO
   font-family: 'WhitneyLight';
   font-size: 16px;
   line-height: 18px;
-  padding: 24px 0 0 38px;
+  padding: 28px 0 0 38px;
 }
 
 .comp-hero .watch-btn {
@@ -419,7 +419,7 @@ COMPETITORS RESPONSIVE
   }
 
   .comp-hero .hero-quote-text {
-    padding-top: 28px;
+    padding-top: 20px;
   }
 
   .comp-features .comp-features-wrapper {
