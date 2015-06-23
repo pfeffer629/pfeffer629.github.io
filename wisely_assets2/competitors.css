@@ -4,41 +4,6 @@
 }
 
 @font-face {
-  font-family: WhitneyBlack;
-  src: url('fonts/Whitney-Black.otf');
-}
-
-@font-face {
-  font-family: WhitneyBlackItalic;
-  src: url('fonts/Whitney-BlackItalic.otf');
-}
-
-@font-face {
-  font-family: WhitneyBlackItalicSC;
-  src: url('fonts/Whitney-BlackItalicSC.otf');
-}
-
-@font-face {
-  font-family: WhitneyBlackSC;
-  src: url('fonts/Whitney-BlackSC.otf');
-}
-
-@font-face {
-  font-family: WhitneyBold;
-  src: url('fonts/Whitney-Bold.otf');
-}
-
-@font-face {
-  font-family: WhitneyBoldItalic;
-  src: url('fonts/Whitney-BoldItalic.otf');
-}
-
-@font-face {
-  font-family: WhitneyBoldItalicSC;
-  src: url('fonts/Whitney-BoldItalicSC.otf');
-}
-
-@font-face {
   font-family: WhitneyBook;
   src: url('fonts/Whitney-Book.otf');
 }
@@ -49,28 +14,8 @@
 }
 
 @font-face {
-  font-family: WhitneyBookItalicSC;
-  src: url('fonts/Whitney-BookItalicSC.otf');
-}
-
-@font-face {
-  font-family: WhitneyBookSC;
-  src: url('fonts/Whitney-BookSC.otf');
-}
-
-@font-face {
   font-family: WhitneyLight;
   src: url('fonts/Whitney-Light.otf');
-}
-
-@font-face {
-  font-family: WhitneyLightItalic;
-  src: url('fonts/Whitney-LightItalic.otf');
-}
-
-@font-face {
-  font-family: WhitneyItalicSC;
-  src: url('fonts/Whitney-LightSC.otf');
 }
 
 @font-face {
@@ -79,40 +24,15 @@
 }
 
 @font-face {
-  font-family: WhitneyMediumItalic;
-  src: url('fonts/Whitney-MediumItalic.otf');
-}
-
-@font-face {
-  font-family: WhitneyMediumItalicSC;
-  src: url('fonts/Whitney-MediumItalicSC.otf');
-}
-
-@font-face {
   font-family: WhitneySemibold;
   src: url('fonts/Whitney-Semibold.otf');
-}
-
-@font-face {
-  font-family: WhitneySemiboldItalic;
-  src: url('fonts/Whitney-SemiboldItalic.otf');
-}
-
-@font-face {
-  font-family: WhitneySemiboldItalicSC;
-  src: url('fonts/Whitney-SemiboldItalicSC.otf');
-}
-
-@font-face {
-  font-family: WhitneyBlack;
-  src: url('fonts/Whitney-SemiboldSC.otf');
 }
 
 /* ============================
 COMPETITORS NAV
 ============================ */
 
-#comp-nav {
+.comp-nav {
   background-color: #fff;
   height: 65px;
   position: fixed;
@@ -120,12 +40,11 @@ COMPETITORS NAV
   z-index: 100;
 }
 
-#comp-nav .comp-nav-container {
-  padding-top: 15px;
-  padding-left: 40px;
+.comp-nav .comp-nav-container {
+  padding: 15px 0 0 40px;
 }
 
-#comp-nav .comp-header-logo img {
+.comp-nav .comp-header-logo img {
   height: 35px;
 }
 
@@ -133,25 +52,25 @@ COMPETITORS NAV
 COMPETITORS HERO
 ============================ */
 
-#comp-hero {
+.comp-hero {
   max-height: 700px;
   overflow: hidden;
   position: relative;
   width: 100%;
 }
 
-#comp-hero .comp-hero-wrapper {
+.comp-hero .comp-hero-wrapper {
   padding-top: 284px;
 }
 
-#comp-hero h1 {
+.comp-hero h1 {
   color: #fff;
   font-family: 'WhitneyLight';
   font-size: 33px;
   line-height: 35px;
 }
 
-#comp-hero p {
+.comp-hero p {
   color: #ccc;
   font-family: 'WhitneyLight';
   font-size: 18px;
@@ -161,7 +80,7 @@ COMPETITORS HERO
 }
 
 
-#comp-hero .hero-bg {
+.comp-hero .hero-bg {
   background-image: url('img/hero-bg.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -171,16 +90,17 @@ COMPETITORS HERO
   width: 100%;
 }
 
-#comp-hero .comp-hero-dark-filter {
+.comp-hero .comp-hero-dark-filter {
   bottom: 0;
   position: absolute;
+  color: #000;
   background-color: rgba(0,0,0,0.7);
   height: 78px;
   width: 100%;
   overflow: hidden;
 }
 
-#comp-hero .blue-quote {
+.comp-hero .blue-quote {
   color: #38aac3;
   float: left;
   font-family: 'GothamMedium';
@@ -188,51 +108,49 @@ COMPETITORS HERO
   line-height: 100px;
 }
 
-#comp-hero .hero-quote-text {
+.comp-hero .hero-quote-text {
   color: #ccc;
   font-family: 'WhitneyLight';
   font-size: 16px;
   line-height: 18px;
-  padding-top: 24px;
-  padding-left: 38px;
+  padding: 24px 0 0 38px;
 }
 
-#comp-hero #watch-btn {
+.comp-hero .watch-btn {
   background-image: url('img/watch-btn.png');
   height: 46px;
   width: 186px;
 }
 
-#comp-hero .comp-iphone-img {
-  height: 815px;
-  padding-top: 150px;
+.comp-hero .comp-iphone-img {
+  height: 675px;
+  margin-top: 140px;
 }
 
 /* ============================
 COMPETITORS FEATURES
 ============================ */
 
-#comp-features .comp-features-wrapper {
+.comp-features .comp-features-wrapper {
   margin-bottom: 80px;
 }
 
-#comp-features h2 {
+.comp-features h2 {
   font-family: 'WhitneySemibold';
   font-size: 28px;
   line-height: 38px;
-  padding-top: 75px;
-  padding-bottom: 67px;
+  padding: 75px 0 67px 0;
   text-align: center;
 }
 
-#comp-features ul {
+.comp-features ul {
   border-bottom: 1px solid #e1e1e1;
   margin: 0 auto;
   max-width: 950px;
   overflow: auto;
 }
 
-#comp-features li {
+.comp-features li {
   display: inline-block;
   font-family: 'WhitneyLight';
   font-size: 17px;
@@ -240,23 +158,23 @@ COMPETITORS FEATURES
   width: 100%;
 }
 
-#comp-features .feature-col {
+.comp-features .feature-col {
   border-right: 1px solid #e1e1e1;
 }
 
-#comp-features .feature-col li{
+.comp-features .feature-col li{
   margin: 0 auto;
 }
 
-#comp-features .features-text {
+.comp-features .features-text {
   text-align: left;
 }
 
-#comp-features li {
+.comp-features li {
   padding: 23px 0;
 }
 
-#comp-features .features-header li {
+.comp-features .features-header li {
   font-family: 'WhitneyMedium';
   font-size: 13px;
   color: #38aac3;
@@ -264,7 +182,7 @@ COMPETITORS FEATURES
   padding-bottom: 10px;
 }
 
-#comp-features .features-others {
+.comp-features .features-others {
   color: #7f7f7f;
 }
 
@@ -273,12 +191,12 @@ COMPETITORS FEATURES
 BEACON HERO
 ============================ */
 
-#comp-beacon-hero {
+.comp-beacon-hero {
   position: relative;
   width: 100%;
 }
 
-#comp-beacon-hero .beacon-hero-bg {
+.comp-beacon-hero .beacon-hero-bg {
   background-image: url('img/beacon-hero-bg.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -289,8 +207,7 @@ BEACON HERO
 }
 
 .beacon-hero-wrapper {
-  padding-left: 20px;
-  padding-top: 77px;
+  padding: 77px 0 0 20px;
 }
 
 .beacon-hero-wrapper h1 {
@@ -316,11 +233,11 @@ BEACON HERO
 COMPETITORS DIAGRAM
 ============================ */
 
-#comp-diagram .comp-diagram-header {
+.comp-diagram .comp-diagram-header {
   padding-top: 100px;
 }
 
-#comp-diagram .comp-diagram-header h2 {
+.comp-diagram .comp-diagram-header h2 {
   font-family: 'WhitneySemibold';
   font-size: 29px;
   font-weight: 100;
@@ -328,26 +245,25 @@ COMPETITORS DIAGRAM
   text-align: center;
 }
 
-#comp-diagram .comp-diagram-header h4 {
+.comp-diagram .comp-diagram-header h4 {
   font-family: 'WhitneyLight';
   font-size: 20px;
   text-align: center;
 }
 
-#comp-diagram .comp-diagram-wrapper {
+.comp-diagram .comp-diagram-wrapper {
   padding-top: 90px;
 }
 
-#comp-diagram .comp-diagram-wrapper img {
+.comp-diagram .comp-diagram-wrapper img {
   width: 100%;
 }
 
-#comp-diagram .comp-diagram-text {
+.comp-diagram .comp-diagram-text {
   clear: both;
   font-family: 'WhitneyBook';
   font-size: 16px;
-  padding-top: 30px;
-  padding-bottom: 100px;
+  padding: 30px 0 100px 0;
   text-align: center;
 }
 
@@ -380,75 +296,73 @@ COMPETITORS DIAGRAM
 COMPETITORS FORM
 ============================ */
 
-#comp-form {
+.comp-form {
   background-color: #363b3c;
   height: 630px;
   text-align: center;
 }
 
-#comp-form .comp-form-wrapper {
-  padding-top: 100px;
-  padding-bottom: 100px;
+.comp-form .comp-form-wrapper {
+  padding: 100px 0;
 }
 
-#comp-form .comp-form-wrapper h2 {
+.comp-form .comp-form-wrapper h2 {
   color: #fff;
   font-family: 'WhitneySemibold';
   font-size: 30px;
   line-height: 39px;
 }
 
-#comp-form .comp-form-wrapper .comp-form-info {
+.comp-form .comp-form-wrapper .comp-form-info {
   margin: 22px auto;
   max-width: 550px;
 }
 
-#comp-form .comp-form-wrapper input {
+.comp-form .comp-form-wrapper input {
   background-color: #363b3c;
-  border: 0px;
+  border: 0;
   border-bottom: 1px solid #fff;
   color: #fff;
   font-family: 'WhitneyMedium';
   font-size: 20px;
   font-weight: 200;
   height: auto;
-  padding-bottom: 10px;
-  padding-top: 33px;
+  margin: 20px 0 10px 0;
   text-align: center;
   width: 100%;
 }
 
-#comp-form .comp-form-wrapper ::-webkit-input-placeholder {
+.comp-form .comp-form-wrapper ::-webkit-input-placeholder {
    color: #a9aaaa;
 }
 
-#comp-form .comp-form-wrapper :-moz-placeholder {
-   color: #a9aaaa;
-   opacity: 1;
-}
-
-#comp-form .comp-form-wrapper ::-moz-placeholder {
+.comp-form .comp-form-wrapper :-moz-placeholder {
    color: #a9aaaa;
    opacity: 1;
 }
 
-#comp-form .comp-form-wrapper :-ms-input-placeholder {  
+.comp-form .comp-form-wrapper ::-moz-placeholder {
+   color: #a9aaaa;
+   opacity: 1;
+}
+
+.comp-form .comp-form-wrapper :-ms-input-placeholder {  
    color: #a9aaaa;  
 }
 
-#comp-form input:focus::-webkit-input-placeholder { 
+.comp-form input:focus::-webkit-input-placeholder { 
   color:transparent; 
 }
 
-#comp-form input:focus:-moz-placeholder { 
+.comp-form input:focus:-moz-placeholder { 
   color:transparent; 
 }
 
-#comp-form input:focus::-moz-placeholder { 
+.comp-form input:focus::-moz-placeholder { 
   color:transparent; 
 }
 
-#comp-form input:focus:-ms-input-placeholder { 
+.comp-form input:focus:-ms-input-placeholder { 
   color:transparent; 
 }
 
@@ -456,34 +370,34 @@ COMPETITORS FORM
 COMPETITORS FOOTER
 ============================ */
 
-#comp-footer .comp-footer-wrapper {
-  padding: 70px 0 0 70px;
+.comp-footer .comp-footer-wrapper {
+  padding: 70px 0 102px 0px;
 }
 
-#comp-footer .comp-footer-wrapper h4 {
+.comp-footer .comp-footer-wrapper h4 {
   font-family: 'WhitneySemibold';
   font-size: 19px;
   padding-bottom: 24px;
 }
 
-#comp-footer .comp-footer-wrapper a {
+.comp-footer .comp-footer-wrapper a {
   color: #38aac3;
   font-family: 'WhitneyBook';
   font-size: 15px;
   text-decoration: none;
 }
 
-#comp-footer .comp-footer-wrapper li {
+.comp-footer .comp-footer-wrapper li {
   line-height: 25px;
 }
 
-#comp-footer p {
+.comp-footer p {
   font-family: 'WhitneyBookItalic';
   font-size: 14px;
   padding-top: 24px;
 }
 
-#comp-footer a {
+.comp-footer a {
   color: #38aac3;
 }
 
@@ -492,41 +406,40 @@ COMPETITORS RESPONSIVE
 ============================ */
 
 @media screen and (max-width:767px) {
-  #comp-hero .comp-hero-wrapper {
-    padding-bottom: 228px;
-    padding-top: 260px;
+  .comp-hero .comp-hero-wrapper {
+    padding: 260px 0 228px 0;
   }
 
-  #comp-hero .comp-hero-dark-filter {
+  .comp-hero .comp-hero-dark-filter {
     height: 94px;
   }
 
-  #comp-hero .blue-quote {
+  .comp-hero .blue-quote {
     line-height: 120px;
   }
 
-  #comp-hero .hero-quote-text {
+  .comp-hero .hero-quote-text {
     padding-top: 28px;
   }
 
-  #comp-features .comp-features-wrapper {
+  .comp-features .comp-features-wrapper {
     padding-top: 50px;
   }
 
-  #comp-features ul {
+  .comp-features ul {
     width: 90%;
   }
 
-  #comp-features h2 {
+  .comp-features h2 {
     line-height: 28px;
     padding-top: 30px;
   }
 
-  #comp-features .features-header {
+  .comp-features .features-header {
     border: none;
   }
 
-  #comp-features .feature-col{
+  .comp-features .feature-col{
     border: none;
   }
 
@@ -534,7 +447,7 @@ COMPETITORS RESPONSIVE
     border-top: 1px solid #e1e1e1;
   }
 
-  #comp-beacon-hero .beacon-hero-wrapper{
+  .comp-beacon-hero .beacon-hero-wrapper{
     max-width: 500px;
   }
 
@@ -542,94 +455,92 @@ COMPETITORS RESPONSIVE
     padding-bottom: 64px;
   }
 
-  #comp-diagram .comp-diagram-header {
+  .comp-diagram .comp-diagram-header {
     padding-top: 50px;
   }
 
-  #comp-footer .comp-footer-wrapper {
+  .comp-footer .comp-footer-wrapper {
     padding: 40px 20px 0 150px;
   }
 
-  #comp-footer .comp-footer-wrapper h4 {
-    padding-bottom: 15px;
-    padding-top: 30px;
+  .comp-footer .comp-footer-wrapper h4 {
+    padding: 30px 0 15px 0;
   }
 
-  #comp-footer img {
-    padding-bottom: 20px;
-    padding-top: 50px;
+  .comp-footer img {
+    padding: 50px 0 20px 0;
   }
 
-  #comp-footer p {
-    padding-bottom: 115px;
-    padding-top: 20px;
+  .comp-footer p {
+    padding: 20px 0 115px 0;
   }
 }
 
 @media screen and (max-width:480px) {
-  #comp-nav {
+  .comp-nav {
     height: 55px;
   }
 
-  #comp-nav .comp-nav-container {
-    padding-top: 10px;
-    padding-left: 30px;
+  .comp-nav .comp-nav-container {
+    padding: 10px 0 0 30px;
   }
 
-  #comp-nav .comp-header-logo img {
+  .comp-nav .comp-header-logo img {
     height: 35px;
   }
 
-  #comp-hero {
+  .comp-hero {
     text-align: center;
   }
 
-  #comp-hero .comp-hero-wrapper {
-    padding-top: 105px;
-    padding-bottom: 167px;
+  .comp-hero .hero-quote-text {
+    text-align: left;
   }
 
-  #comp-hero #comp-hero-info p {
+  .comp-hero .comp-hero-wrapper {
+    padding: 105px 0 167px 0;
+  }
+
+  .comp-hero .comp-hero-info p {
     padding-top: 20px;
   }
 
-  #comp-hero #watch-btn {
+  .comp-hero .watch-btn {
     margin: 0 auto;
   }
 
-  #comp-features h2 {
-    padding-top: 0px;
+  .comp-features h2 {
+    padding: 0;
     padding-bottom: 20px;
   }  
 
-  #comp-features li {
+  .comp-features li {
     padding: 15px 0;
   }
 
-  #comp-features .features-header {
+  .comp-features .features-header {
     border: none;
     overflow: visible;
     margin-right: 27px;
   }
 
-  #comp-features .feature-col{
+  .comp-features .feature-col{
     border: none;
   }
 
-  #comp-diagram .comp-diagram-wrapper {
+  .comp-diagram .comp-diagram-wrapper {
     padding-top: 30px;
   }
 
-  #comp-diagram .comp-diagram-text {
+  .comp-diagram .comp-diagram-text {
     padding-bottom: 50px;
   }
 
-  #comp-form .comp-form-wrapper {
-    padding-top: 50px;
-    padding-bottom: 50px;
+  .comp-form .comp-form-wrapper {
+    padding: 50px 0;
   }
 
-  #comp-footer .comp-footer-wrapper{
+  .comp-footer .comp-footer-wrapper{
     padding-left: 60px;
   }
 
