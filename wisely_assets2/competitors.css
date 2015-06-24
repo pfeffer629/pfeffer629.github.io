@@ -541,11 +541,10 @@ COMPETITORS RESPONSIVE
   .comp-footer .comp-footer-wrapper{
     padding-left: 60px;
   }
+}
 
-  @media screen and (max-width: 419px) {
-    .comp-hero .hero-quote-text {
-      padding-top: 20px;
-    }
+@media screen and (max-width: 419px) {
+  .comp-hero .hero-quote-text {
+    padding-top: 20px;
   }
-
 }
