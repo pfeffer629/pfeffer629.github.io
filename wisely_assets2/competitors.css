@@ -294,6 +294,16 @@ COMPETITORS DIAGRAM
   text-align: right;
 }
 
+.comp-diagram-wrapper .diagram-check {
+  height: 20px;
+  width: 25px;
+}
+
+.comp-diagram-wrapper .diagram-x {
+  height: 18px;
+  width: 18px;
+}
+
 /* ============================
 COMPETITORS FORM
 ============================ */
@@ -401,6 +411,11 @@ COMPETITORS FOOTER
 
 .comp-footer a {
   color: #38aac3;
+}
+
+.comp-footer .app-store {
+  height: 47px;
+  width: 180px;
 }
 
 /* ============================
