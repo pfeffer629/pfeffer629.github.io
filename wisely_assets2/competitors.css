@@ -44,7 +44,7 @@ COMPETITORS NAV
   padding: 15px 0 0 40px;
 }
 
-.comp-nav .comp-header-logo img {
+.comp-nav .comp-wisely-logo {
   height: 35px;
 }
 
@@ -67,7 +67,7 @@ COMPETITORS HERO
   color: #fff;
   font-family: 'WhitneyLight';
   font-size: 33px;
-  line-height: 35px;
+  line-height: 1;
 }
 
 .comp-hero p {
@@ -75,7 +75,7 @@ COMPETITORS HERO
   font-family: 'WhitneyLight';
   font-size: 18px;
   font-weight: 100;
-  line-height: 24px;
+  line-height: 1.3;
   padding-top: 24px;
 }
 
@@ -106,7 +106,7 @@ COMPETITORS HERO
   font-family: 'GothamMedium';
   font-size: 50px;
   padding-left: 10px;
-  line-height: 100px;
+  line-height: 2;
   z-index: 10;
 }
 
@@ -114,7 +114,7 @@ COMPETITORS HERO
   color: #ccc;
   font-family: 'WhitneyLight';
   font-size: 16px;
-  line-height: 18px;
+  line-height: 1;
   padding: 26px 0 0 68px;
 }
 
@@ -140,7 +140,7 @@ COMPETITORS FEATURES
 .comp-features h2 {
   font-family: 'WhitneySemibold';
   font-size: 28px;
-  line-height: 38px;
+  line-height: 1.35;
   padding: 75px 0 67px 0;
   text-align: center;
 }
@@ -216,14 +216,14 @@ BEACON HERO
   color: #fff;
   font-family: 'WhitneySemibold';
   font-size: 38px;
-  line-height: 42px;
+  line-height: 1.1;
 }
 
 .beacon-hero-wrapper p {
   color: #fff;
   font-family: 'WhitneyLight';
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   margin-top: 26px;
 }
 
@@ -243,7 +243,7 @@ COMPETITORS DIAGRAM
   font-family: 'WhitneySemibold';
   font-size: 29px;
   font-weight: 100;
-  line-height: 34px;
+  line-height: 1.2;
   text-align: center;
 }
 
@@ -312,7 +312,7 @@ COMPETITORS FORM
   color: #fff;
   font-family: 'WhitneySemibold';
   font-size: 30px;
-  line-height: 39px;
+  line-height: 1.3;
 }
 
 .comp-form .comp-form-wrapper .comp-form-info {
