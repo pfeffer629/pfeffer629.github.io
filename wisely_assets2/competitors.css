@@ -294,12 +294,12 @@ COMPETITORS DIAGRAM
   text-align: right;
 }
 
-.comp-diagram-wrapper .diagram-check {
+.diagram-check {
   height: 20px;
   width: 25px;
 }
 
-.comp-diagram-wrapper .diagram-x {
+.diagram-x {
   height: 18px;
   width: 18px;
 }
@@ -413,7 +413,7 @@ COMPETITORS FOOTER
   color: #38aac3;
 }
 
-.comp-footer .app-store {
+.comp-footer .app-store-btn {
   height: 47px;
   width: 180px;
 }
