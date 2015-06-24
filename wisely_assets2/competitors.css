@@ -1,31 +1,31 @@
 @font-face {
   font-family: GothamMedium;
-  src: url('fonts/Gotham Medium Regular.ttf');
+  src: url(fonts/Gotham Medium Regular.ttf);
 }
 
 @font-face {
   font-family: WhitneyBook;
-  src: url('fonts/Whitney-Book.otf');
+  src: url(fonts/Whitney-Book.otf);
 }
 
 @font-face {
   font-family: WhitneyBookItalic;
-  src: url('fonts/Whitney-BookItalic.otf');
+  src: url(fonts/Whitney-BookItalic.otf);
 }
 
 @font-face {
   font-family: WhitneyLight;
-  src: url('fonts/Whitney-Light.otf');
+  src: url(fonts/Whitney-Light.otf);
 }
 
 @font-face {
   font-family: WhitneyMedium;
-  src: url('fonts/Whitney-Medium.otf');
+  src: url(fonts/Whitney-Medium.otf);
 }
 
 @font-face {
   font-family: WhitneySemibold;
-  src: url('fonts/Whitney-Semibold.otf');
+  src: url(fonts/Whitney-Semibold.otf);
 }
 
 /* ============================
@@ -81,7 +81,7 @@ COMPETITORS HERO
 
 
 .comp-hero .hero-bg {
-  background-image: url('img/hero-bg.jpg');
+  background-image: url(img/hero-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -119,7 +119,7 @@ COMPETITORS HERO
 }
 
 .comp-hero .watch-btn {
-  background-image: url('img/watch-btn.png');
+  background-image: url(img/watch-btn.png);
   height: 46px;
   width: 186px;
 }
@@ -199,7 +199,7 @@ BEACON HERO
 }
 
 .comp-beacon-hero .beacon-hero-bg {
-  background-image: url('img/beacon-hero-bg.jpg');
+  background-image: url(img/beacon-hero-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
