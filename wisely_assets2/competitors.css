@@ -105,7 +105,7 @@ COMPETITORS HERO
   float: left;
   font-family: 'GothamMedium';
   font-size: 50px;
-  padding-left: 10px;
+  padding-left: 30px;
   line-height: 2;
   z-index: 10;
 }
@@ -483,7 +483,7 @@ COMPETITORS RESPONSIVE
     padding: 10px 0 0 30px;
   }
 
-  .comp-nav .comp-header-logo img {
+  .comp-nav img {
     height: 35px;
   }
 
@@ -499,7 +499,7 @@ COMPETITORS RESPONSIVE
     padding: 105px 0 167px 0;
   }
 
-  .comp-hero .comp-hero-info p {
+  .comp-hero .comp-hero-wrapper p {
     padding-top: 20px;
   }
 
