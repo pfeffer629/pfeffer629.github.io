@@ -228,7 +228,7 @@ BEACON HERO
 }
 
 .beacon-hero-wrapper img {
-  padding-bottom: 124px;
+  margin-bottom: 68px;
 }
 
 /* ============================
@@ -449,9 +449,9 @@ COMPETITORS RESPONSIVE
     max-width: 500px;
   }
 
-  .beacon-hero-wrapper img {
-    padding-bottom: 64px;
-  }
+/*  .beacon-hero-wrapper img {
+    margin-bottom: 64px;
+  }*/
 
   .comp-diagram .comp-diagram-header {
     padding-top: 50px;
