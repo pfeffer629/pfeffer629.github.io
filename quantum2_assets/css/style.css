@@ -28,15 +28,8 @@ header {
   position: relative;
 }
 
-header > div {
-  overflow: hidden;
-}
 
-header img {
-  float: left;
-}
-
-.main-nav {
+.main-nav ul {
   float: right;
   padding-right: 20px;
 }
@@ -53,6 +46,10 @@ header img {
 
 .main-nav li:hover {
   text-decoration: underline;
+}
+
+.menu {
+  visibility: hidden;
 }
 
 /* =====================
