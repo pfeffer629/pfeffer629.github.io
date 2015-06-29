@@ -15,7 +15,6 @@ body {
   margin: 0 auto;
   min-height: 100%;
   position: relative;
-  width: 960px;
 }
 
 /* =====================
@@ -139,4 +138,16 @@ footer {
 footer p {
   float: right;
   padding: 10px;
-};
+}
+
+@media screen and (max-width: 760px) {
+  .carousel-caption {
+    top: 20%;
+  }
+}
+
+@media screen and (max-width: 419px) {
+  .carousel-caption {
+    top: 0%;
+  }
+}
