@@ -70,7 +70,7 @@ CAROUSEL
 
 .carousel-caption {
   left: 0;
-  margin-bottom: 150px;
+  top: 30%;
   margin-left: 60px;
   position: absolute;
   text-align: left;
