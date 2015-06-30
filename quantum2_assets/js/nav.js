@@ -1,7 +1,6 @@
 $(function() {
   var pull = $('#menu');
-  var menu = $('nav ul');
-  var menuHeight = menu.height();
+  var menu = $('.dropdown-menu');
 
   $(pull).on('click', function(e) {
     e.preventDefault();

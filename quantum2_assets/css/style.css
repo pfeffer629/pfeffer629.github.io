@@ -28,28 +28,28 @@ header {
   position: relative;
 }
 
-
 .main-nav ul {
-  float: right;
-  padding-right: 20px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  list-style-type: none;
 }
 
 .main-nav li {
   color: #8a0309;
-  float: left;
   font-size: 1.2em;
   font-weight: bold;
-  padding-top: 30px;
   text-align: right;
-  width: 110px;
+  display: inline-block;
+  padding: 15px;
 }
 
 .main-nav li:hover {
   text-decoration: underline;
 }
 
-.menu {
-  visibility: hidden;
+#menu {
+  display: none;
 }
 
 /* =====================
@@ -68,9 +68,10 @@ CAROUSEL
 .carousel-caption {
   left: 0;
   top: 30%;
-  margin-left: 60px;
+  margin-left: 20px;
   position: absolute;
   text-align: left;
+  width: 50%;
 }
 
 .carousel-caption h1{
@@ -137,14 +138,44 @@ footer p {
   padding: 10px;
 }
 
+@media screen and (max-width: 1000px) {
+  .main-nav ul {
+    display: none;
+  }
+
+  .dropdown-menu {
+    display: none;
+    width: 100%;
+    position: relative;
+  }
+
+  .dropdown-menu li {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    color: #8a0309;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  #menu {
+    display: block;
+    position: absolute;
+    padding: 10px;
+    right: 0;
+    bottom: 0;
+  }
+}
+
 @media screen and (max-width: 760px) {
   .carousel-caption {
-    top: 20%;
+    top: 10%;
   }
 }
 
 @media screen and (max-width: 419px) {
   .carousel-caption {
-    top: 0%;
+    top: -20%;
   }
 }
