@@ -217,11 +217,27 @@ REHAB
   background-image: url("../img/3px-tile.png");
   font-size: 1.4em;
   padding: 20px;
+  height: auto;
   text-align: left;
 }
 
+.table {
+  display: table;
+}
+
+.rehab-img {
+  width: 100%;
+}
+
 .rehab-content img {
+  display: table-cell;
   width: 100%;
   height: auto;
+  vertical-align: middle;
+}
+
+.rehab-text {
+  display: table-cell;
+  float: none;
   vertical-align: middle;
 }
