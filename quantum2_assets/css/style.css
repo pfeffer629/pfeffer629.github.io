@@ -177,7 +177,7 @@ footer p {
 }
 
 /* =====================
-REHAB
+page
 ===================== */
 
 .content-container {
@@ -189,14 +189,14 @@ REHAB
   position: relative;
 }
 
-.rehab-bg {
+.page-bg {
   width: 100%;
   height: 400px;
   position: absolute;
   margin: 0 auto;
 }
 
-.rehab-wrapper {
+.page-wrapper {
   margin: 10px auto;
   height: 400px;
   overflow: hidden;
@@ -210,7 +210,7 @@ REHAB
   position: relative;
 }
 
-.rehab-content {
+.page-content {
   border: 1px solid black;
   color: #fff;
   margin: 10px;
@@ -219,25 +219,61 @@ REHAB
   padding: 20px;
   height: auto;
   text-align: left;
+  overflow: auto;
 }
 
 .table {
   display: table;
 }
 
-.rehab-img {
+.page-content h1 {
+  text-align: center;
+}
+
+.page-img {
   width: 100%;
 }
 
-.rehab-content img {
+.page-content img {
   display: table-cell;
   width: 100%;
   height: auto;
   vertical-align: middle;
 }
 
-.rehab-text {
+.page-content a {
+  color: #fff;
+}
+
+.page-text {
   display: table-cell;
   float: none;
   vertical-align: middle;
 }
+
+.italics {
+  font-style: italic;
+}
+
+.grid {
+  margin: 0 auto;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-item {
+  width: 180px;
+  height: 120px;
+  float: left;
+  margin: 1px;
+}
+
+.grid-item--height2 { height: 200px; }
+.grid-item--height3 { height: 260px; }
