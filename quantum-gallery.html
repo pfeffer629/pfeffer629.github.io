@@ -4,12 +4,11 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="quantum2_assets/css/reset.css">
     <link rel="stylesheet" href="quantum2_assets/css/animate.min.css">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="quantum2_assets/css/style.css">
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="quantum2_assets/css/bootstrap.min.css">
+
     <script src="quantum2_assets/js/wow.min.js"></script>
-    <script src="quantum2_assets/js/photo-gallery.js"></script>
     <script src="quantum2_assets/js/nav.js"></script>
     <script>new WOW().init();</script>
     <title>Quantum</title>
@@ -40,109 +39,105 @@
       <a href="quantum-gallery.html"><li>Gallery</li></a>
     </ul>
 
-    <div class="page-content">
-      <h1>Gallery</h1>
-      <div id="container">
-        <div class="masonryImage">
-          <img src="quantum2_assets/img/amenities/bed 2.jpg" alt="" data-toggle="modal" data-target="#myModal">
-        </div>
-             
-        <div class="masonryImage">
-          <img src="quantum2_assets/img/amenities/bookshelf.jpg" alt="">
-        </div>
-             
-        <div class="masonryImage">
-          <img src="quantum2_assets/img/amenities/cathy room photo.jpg" alt="">
-        </div>
+  <div class="page-content">
 
-        <div class="masonryImage">
-          <img src="quantum2_assets/img/amenities/computer station 1.jpg" alt="">
-        </div>
-        
-        <div class="masonryImage">
-          <img src="quantum2_assets/img/amenities/computer station 2.jpg" alt="">
-        </div>
-        
-        <div class="masonryImage">
-          <img src="quantum2_assets/img/amenities/group meal 3.jpg" alt="">
-        </div>
-        
-        <div class="masonryImage">
-          <img src="quantum2_assets/img/amenities/manicure 2.jpg" alt="">
-        </div>
-        
-        <div class="masonryImage">
-          <img src="quantum2_assets/img/amenities/meal 2.jpg" alt="">
-        </div>
-        
-        <div class="masonryImage">
-          <img src="quantum2_assets/img/amenities/room 3.jpg" alt="">
-        </div>
-             
-        <div class="masonryImage">
-          <img src="quantum2_assets/img/nursing/medical director.jpg" alt="">
-        </div>
-             
-        <div class="masonryImage">
-          <img src="quantum2_assets/img/nursing/nursing 12.jpg" alt="">
-        </div>
-             
-        <div class="masonryImage">
-          <img src="quantum2_assets/img/nursing/nursing 14.jpg" alt="">
-        </div>
-             
-        <div class="masonryImage">
-          <img src="quantum2_assets/img/nursing/nursing 2.jpg" alt="">
-        </div>
-             
-        <div class="masonryImage">
-          <img src="quantum2_assets/img/nursing/nursing 3.jpg" alt="">
-        </div>
-             
-        <div class="masonryImage">
-          <img src="quantum2_assets/img/nursing/tanya randolph.jpg" alt="">
-        </div>
-        
-        <div class="masonryImage">
-          <img src="quantum2_assets/img/rehab/bike rehab.jpg" alt="">
-        </div>
+  <h1>Gallery</h1>
+  <hr>
 
-        <div class="masonryImage">
-          <img src="quantum2_assets/img/rehab/rehab balls.jpg" alt="">
-        </div>
+  <ul class="filter nav nav-pills">
+    <li data-value="all"><a href="#">All</a></li>
+    <li data-value="amenities"><a href="#">Amenities</a></li>
+    <li data-value="nursing"><a href="#">Nursing</a></li>
+    <li data-value="rehab"><a href="#">Rehab</a></li>
+  </ul>
 
-        <div class="masonryImage">
-          <img src="quantum2_assets/img/rehab/rehab director 2.jpg" alt="">
-        </div>
+  <ul class="thumbnails">
 
-        <div class="masonryImage">
-          <img src="quantum2_assets/img/rehab/rehab smart balance.jpg" alt="">
-        </div>
-        
-        <div class="masonryImage">
-          <img src="quantum2_assets/img/administrator.jpg" alt="">
-        </div>
+    <li data-type="amenities" data-id="id-1" class="span3">
+      <a href="#" class="thumbnail" id="amenities1"><img src="quantum2_assets/img/amenities/bed 2.jpg"></a>
+    </li>
 
-      </div>
-          
-      <script src="quantum2_assets/js/jquery.masonry.min.js"></script>
-      <script>
-        $(function(){
-       
-          var $container = $('#container');
+    <li data-type="rehab" data-id="id-19" class="span3">
+      <a href="#" class="thumbnail" id="rehab4"><img src="quantum2_assets/img/rehab/rehab smart balance.jpg" alt=""></a>
+    </li>
+
+    <li data-type="amenities" data-id="id-4" class="span3">
+      <a href="#" class="thumbnail" id="amenities4"><img src="quantum2_assets/img/amenities/computer station 1.jpg" alt=""></a>
+    </li>
+    
+    <li data-type="amenities" data-id="id-5" class="span3">
+      <a href="#" class="thumbnail" id="amenities5"><img src="quantum2_assets/img/amenities/computer station 2.jpg" alt=""></a>
+    </li>
+    
+    <li data-type="amenities" data-id="id-6" class="span3">
+      <a href="#" class="thumbnail" id="amenities6"><img src="quantum2_assets/img/amenities/group meal 3.jpg" alt=""></a>
+    </li>
+    
+    <li data-type="amenities" data-id="id-7" class="span3">
+      <a href="#" class="thumbnail" id="amenities7"><img src="quantum2_assets/img/amenities/manicure 2.jpg" alt=""></a>
+    </li>
+    
+    <li data-type="amenities" data-id="id-9" class="span3">
+      <a href="#" class="thumbnail" id="amenities9"><img src="quantum2_assets/img/amenities/room 3.jpg" alt=""></a>
+    </li>
          
-          $container.imagesLoaded( function(){
-            $container.masonry({
-              itemSelector : '.masonryImage'
-            });
-          });
+    <li data-type="nursing" data-id="id-10" class="span3">
+      <a href="#" class="thumbnail" id="nursing1"><img src="quantum2_assets/img/nursing/medical director.jpg" alt=""></a>
+    </li>
          
-        });
-      </script>
-    </div>
-      
+    <li data-type="nursing" data-id="id-11" class="span3">
+      <a href="#" class="thumbnail" id="nursing2"><img src="quantum2_assets/img/nursing/nursing 12.jpg" alt=""></a>
+    </li>
+         
+    <li data-type="nursing" data-id="id-12" class="span3">
+      <a href="#" class="thumbnail" id="nursing3"><img src="quantum2_assets/img/nursing/nursing 14.jpg" alt=""></a>
+    </li>
+
+    <li data-type="rehab" data-id="id-16" class="span3">
+      <a href="#" class="thumbnail" id="rehab1"><img src="quantum2_assets/img/rehab/bike rehab.jpg" alt=""></a>
+    </li>
+
+    <li data-type="nursing" data-id="id-15" class="span3">
+      <a href="#" class="thumbnail" id="nursing6"><img src="quantum2_assets/img/nursing/tanya randolph.jpg" alt=""></a>
+    </li>
+
+    <li class="span3 span3-large">
+      <a href="#" class="thumbnail" id="admin"><img src="quantum2_assets/img/administrator.jpg" alt=""></a>
+    </li>
+
+    <li data-type="nursing" data-id="id-13" class="span3 span3-large">
+      <a href="#" class="thumbnail" id="nursing4"><img src="quantum2_assets/img/nursing/nursing 2.jpg" alt=""></a>
+    </li>
+         
+    <li data-type="nursing" data-id="id-14" class="span3 span3-large">
+      <a href="#" class="thumbnail" id="nursing5"><img src="quantum2_assets/img/nursing/nursing 3.jpg" alt=""></a>
+    </li>
+    
+    <li data-type="amenities" data-id="id-3" class="span3 span3-large">
+      <a href="#" class="thumbnail" id="amenities3"><img src="quantum2_assets/img/amenities/cathy room photo.jpg" alt=""></a>
+    </li>
+
+    <li data-type="rehab" data-id="id-17" class="span3 span3-large">
+      <a href="#" class="thumbnail" id="rehab2"><img src="quantum2_assets/img/rehab/rehab balls.jpg" alt=""></a>
+    </li>
+
+    <li data-type="rehab" data-id="id-18" class="span3 span3-large">
+      <a href="#" class="thumbnail" id="rehab3"><img src="quantum2_assets/img/rehab/rehab director 2.jpg" alt=""></a>
+    </li>
+
+    <li data-type="amenities" data-id="id-2" class="span3 span3-large">
+      <a href="#" class="thumbnail" id="amenities2"><img src="quantum2_assets/img/amenities/bookshelf.jpg" alt=""></a>
+    </li>
+
+    <li data-type="amenities" data-id="id-8" class="span3 span3-large">
+      <a href="#" class="thumbnail" id="amenities8"><img src="quantum2_assets/img/amenities/meal 2.jpg" alt=""></a>
+    </li>
+
+  </ul>
+</div>
+
     <footer>
-      <p class="wow flipInX">
+      <p>
         63 Oakcrest Avenue<br>
         Middle Island, NY 11953<br>
         Phone: 631-924-8830<br>
@@ -150,5 +145,52 @@
       </p>
     </footer>
   </div>
-  </body>
+
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+<script type='text/javascript' src="quantum2_assets/js/bootstrap.min.js"></script>
+<script type='text/javascript' src="quantum2_assets/js/bootbox.min.js"></script>
+<script type="text/javascript" src="quantum2_assets/js/jquery.quicksand.js"></script>
+<script>
+  function gallery(){
+    $('#amenities1').click(function() { bootbox.alert('<img src="quantum2_assets/img/amenities/bed 2.jpg">'); });
+    $('#amenities2').click(function() { bootbox.alert('<img src="quantum2_assets/img/amenities/bookshelf.jpg">'); });
+    $('#amenities3').click(function() { bootbox.alert('<img src="quantum2_assets/img/amenities/cathy room photo.jpg">'); });
+    $('#amenities4').click(function() { bootbox.alert('<img src="quantum2_assets/img/amenities/computer station 1.jpg">'); });
+    $('#amenities5').click(function() { bootbox.alert('<img src="quantum2_assets/img/amenities/computer station 2.jpg">'); });
+    $('#amenities6').click(function() { bootbox.alert('<img src="quantum2_assets/img/amenities/group meal 3.jpg">'); });
+    $('#amenities7').click(function() { bootbox.alert('<img src="quantum2_assets/img/amenities/manicure 2.jpg">'); });
+    $('#amenities8').click(function() { bootbox.alert('<img src="quantum2_assets/img/amenities/meal 2.jpg">'); });
+    $('#amenities9').click(function() { bootbox.alert('<img src="quantum2_assets/img/amenities/room 3.jpg">'); });
+    $('#nursing1').click(function() { bootbox.alert('<img src="quantum2_assets/img/nursing/medical director.jpg">'); });
+    $('#nursing2').click(function() { bootbox.alert('<img src="quantum2_assets/img/nursing/nursing 12.jpg">'); });
+    $('#nursing3').click(function() { bootbox.alert('<img src="quantum2_assets/img/nursing/nursing 14.jpg">'); });
+    $('#nursing4').click(function() { bootbox.alert('<img src="quantum2_assets/img/nursing/nursing 2.jpg">'); });
+    $('#nursing5').click(function() { bootbox.alert('<img src="quantum2_assets/img/nursing/nursing 3.jpg">'); });
+    $('#nursing6').click(function() { bootbox.alert('<img src="quantum2_assets/img/nursing/tanya randolph.jpg">'); });
+    $('#rehab1').click(function() { bootbox.alert('<img src="quantum2_assets/img/rehab/bike rehab.jpg">'); });
+    $('#rehab2').click(function() { bootbox.alert('<img src="quantum2_assets/img/rehab/rehab balls.jpg">'); });
+    $('#rehab3').click(function() { bootbox.alert('<img src="quantum2_assets/img/rehab/rehab director 2.jpg">'); });
+    $('#rehab4').click(function() { bootbox.alert('<img src="quantum2_assets/img/rehab/rehab smart balance.jpg">'); });
+    $('#admin').click(function() { bootbox.alert('<img src="quantum2_assets/img/administrator.jpg">').addClass("largeWidth"); });
+
+    }
+    var $itemsHolder = $('ul.thumbnails');
+    var $itemsClone = $itemsHolder.clone(); 
+    var $filterClass = "";
+    $('ul.filter li').click(function(e) {
+    e.preventDefault();
+    $filterClass = $(this).attr('data-value');
+      if($filterClass == 'all'){ var $filters = $itemsClone.find('li'); }
+      else { var $filters = $itemsClone.find('li[data-type='+ $filterClass +']'); }
+      $itemsHolder.quicksand(
+        $filters,
+        { duration: 1000 },
+        gallery
+        );
+    });
+    $(document).ready(gallery);
+</script>
+
+</body>
 </html>
+
