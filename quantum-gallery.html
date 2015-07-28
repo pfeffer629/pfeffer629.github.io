@@ -9,8 +9,8 @@
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="quantum2_assets/js/wow.min.js"></script>
-    <script src="quantum2_assets/js/masonry.pkgd.min.js"></script>
-    <script src="quantum2_assets/js/masonry.js"></script>
+    <script src="quantum2_assets/js/photo-gallery.js"></script>
+    <script src="quantum2_assets/js/nav.js"></script>
     <script>new WOW().init();</script>
     <title>Quantum</title>
   </head>
@@ -32,48 +32,115 @@
       </nav>
     </header>
 
-<!--     <div class="page-content">
-      <h1>Gallery</h1>
-      <div class="grid">
-        <div class="grid-item grid-item--height3">
-          <img src="quantum2_assets/img/rehab/rehab balls.jpg">
-        </div>
-        <div class="grid-item">
-          <img src="quantum2_assets/img/nursing/medical director.jpg">
-        </div>
-        <div class="grid-item">
-          <img src="quantum2_assets/img/nursing/medical director.jpg">
-        </div>
-        <div class="grid-item">
-          <img src="quantum2_assets/img/nursing/nmedical director.jpg">
-        </div>
-        <div class="grid-item grid-item--height3">
-          <img src="quantum2_assets/img/nursing/nursing 2.jpg">
-        </div>
-        <div class="grid-item grid-item--height3">
-          <img src="quantum2_assets/img/rehab/rehab director 2.jpg">
-        </div>
-        <div class="grid-item">
-          <img src="quantum2_assets/img/rehab/rehab director 2.jpg">
-        </div>
-        <div class="grid-item">
-          <img src="quantum2_assets/img/rehab/rehab director 2.jpg">
-        </div>
-        <div class="grid-item">
-          <img src="quantum2_assets/img/rehab/rehab director 2.jpg">
-        </div>
-      </div>
-    </div>
-       -->
-       
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">         
-          <div class="modal-body"></div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+    <ul class="dropdown-menu">
+      <a href="quantum-rehab.html"><li class="logo-cutout">Rehab</li></a>
+      <a href="quantum-nursing.html"><li>Nursing</li></a>
+      <a href="quantum-amenities.html"><li>Amenities</li></a>
+      <a href="quantum-contact.html"><li>Contact</li></a>
+      <a href="quantum-gallery.html"><li>Gallery</li></a>
+    </ul>
 
+    <div class="page-content">
+      <h1>Gallery</h1>
+      <div id="container">
+        <div class="masonryImage">
+          <img src="quantum2_assets/img/amenities/bed 2.jpg" alt="" data-toggle="modal" data-target="#myModal">
+        </div>
+             
+        <div class="masonryImage">
+          <img src="quantum2_assets/img/amenities/bookshelf.jpg" alt="">
+        </div>
+             
+        <div class="masonryImage">
+          <img src="quantum2_assets/img/amenities/cathy room photo.jpg" alt="">
+        </div>
+
+        <div class="masonryImage">
+          <img src="quantum2_assets/img/amenities/computer station 1.jpg" alt="">
+        </div>
+        
+        <div class="masonryImage">
+          <img src="quantum2_assets/img/amenities/computer station 2.jpg" alt="">
+        </div>
+        
+        <div class="masonryImage">
+          <img src="quantum2_assets/img/amenities/group meal 3.jpg" alt="">
+        </div>
+        
+        <div class="masonryImage">
+          <img src="quantum2_assets/img/amenities/manicure 2.jpg" alt="">
+        </div>
+        
+        <div class="masonryImage">
+          <img src="quantum2_assets/img/amenities/meal 2.jpg" alt="">
+        </div>
+        
+        <div class="masonryImage">
+          <img src="quantum2_assets/img/amenities/room 3.jpg" alt="">
+        </div>
+             
+        <div class="masonryImage">
+          <img src="quantum2_assets/img/nursing/medical director.jpg" alt="">
+        </div>
+             
+        <div class="masonryImage">
+          <img src="quantum2_assets/img/nursing/nursing 12.jpg" alt="">
+        </div>
+             
+        <div class="masonryImage">
+          <img src="quantum2_assets/img/nursing/nursing 14.jpg" alt="">
+        </div>
+             
+        <div class="masonryImage">
+          <img src="quantum2_assets/img/nursing/nursing 2.jpg" alt="">
+        </div>
+             
+        <div class="masonryImage">
+          <img src="quantum2_assets/img/nursing/nursing 3.jpg" alt="">
+        </div>
+             
+        <div class="masonryImage">
+          <img src="quantum2_assets/img/nursing/tanya randolph.jpg" alt="">
+        </div>
+        
+        <div class="masonryImage">
+          <img src="quantum2_assets/img/rehab/bike rehab.jpg" alt="">
+        </div>
+
+        <div class="masonryImage">
+          <img src="quantum2_assets/img/rehab/rehab balls.jpg" alt="">
+        </div>
+
+        <div class="masonryImage">
+          <img src="quantum2_assets/img/rehab/rehab director 2.jpg" alt="">
+        </div>
+
+        <div class="masonryImage">
+          <img src="quantum2_assets/img/rehab/rehab smart balance.jpg" alt="">
+        </div>
+        
+        <div class="masonryImage">
+          <img src="quantum2_assets/img/administrator.jpg" alt="">
+        </div>
+
+      </div>
+          
+      <script src="quantum2_assets/js/jquery.masonry.min.js"></script>
+      <script>
+        $(function(){
+       
+          var $container = $('#container');
+         
+          $container.imagesLoaded( function(){
+            $container.masonry({
+              itemSelector : '.masonryImage'
+            });
+          });
+         
+        });
+      </script>
+    </div>
+      
     <footer>
       <p class="wow flipInX">
         63 Oakcrest Avenue<br>

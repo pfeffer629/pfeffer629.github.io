@@ -49,6 +49,8 @@ header {
 }
 
 #menu {
+  color: #8a0309;
+  font-size: 20px;
   display: none;
 }
 
@@ -162,6 +164,7 @@ footer p {
     padding: 10px;
     right: 0;
     bottom: 0;
+    cursor: pointer;
   }
 }
 
@@ -256,25 +259,12 @@ page
   font-style: italic;
 }
 
-.grid {
+#container {
+  width: 100%;
   margin: 0 auto;
 }
 
-/* clearfix */
-.grid:after {
-  content: '';
-  display: block;
-  clear: both;
+.masonryImage {
+  margin: 5px;
+  width: 255px;
 }
-
-/* ---- grid-item ---- */
-
-.grid-item {
-  width: 180px;
-  height: 120px;
-  float: left;
-  margin: 1px;
-}
-
-.grid-item--height2 { height: 200px; }
-.grid-item--height3 { height: 260px; }
