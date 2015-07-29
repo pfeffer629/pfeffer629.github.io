@@ -101,7 +101,7 @@
       <a href="#" class="thumbnail" id="nursing6"><img src="quantum2_assets/img/nursing/tanya randolph.jpg" alt=""></a>
     </li>
 
-    <li class="span3 span3-large">
+    <li class="span3 span3-large" data-id="id-24">
       <a href="#" class="thumbnail" id="admin"><img src="quantum2_assets/img/administrator.jpg" alt=""></a>
     </li>
 
@@ -133,20 +133,20 @@
       <a href="#" class="thumbnail" id="amenities8"><img src="quantum2_assets/img/amenities/meal 2.jpg" alt=""></a>
     </li>
 
-    <li data-type="rehab" data-id="id-8" class="span3 span3-large">
-      <a href="#" class="thumbnail" id="amenities8"><img src="quantum2_assets/img/rehab/rehab dtail whatever.jpg" alt=""></a>
+    <li data-type="rehab" data-id="id-20" class="span3 span3-large">
+      <a href="#" class="thumbnail" id="rehab5"><img src="quantum2_assets/img/rehab/rehab dtail whatever.jpg" alt=""></a>
     </li>
 
-    <li data-type="rehab" data-id="id-8" class="span3 span3-large">
-      <a href="#" class="thumbnail" id="amenities8"><img src="quantum2_assets/img/rehab/rehab gear.jpg" alt=""></a>
+    <li data-type="rehab" data-id="id-21" class="span3 span3-large">
+      <a href="#" class="thumbnail" id="rehab6"><img src="quantum2_assets/img/rehab/rehab gear.jpg" alt=""></a>
     </li>
 
-    <li data-type="rehab" data-id="id-8" class="span3 span3-large">
-      <a href="#" class="thumbnail" id="amenities8"><img src="quantum2_assets/img/rehab/rehab 5.jpg" alt=""></a>
+    <li data-type="rehab" data-id="id-22" class="span3 span3-large">
+      <a href="#" class="thumbnail" id="rehab7"><img src="quantum2_assets/img/rehab/rehab 5.jpg" alt=""></a>
     </li>
-    
-    <li data-type="rehab" data-id="id-8" class="span3 span3-large">
-      <a href="#" class="thumbnail" id="amenities8"><img src="quantum2_assets/img/rehab/rehab 7.jpg" alt=""></a>
+
+    <li data-type="rehab" data-id="id-23" class="span3 span3-large">
+      <a href="#" class="thumbnail" id="rehab8"><img src="quantum2_assets/img/rehab/rehab 7.jpg" alt=""></a>
     </li>
 
   </ul>
@@ -188,6 +188,10 @@
     $('#rehab3').click(function() { bootbox.alert('<img src="quantum2_assets/img/rehab/rehab director 2.jpg">'); });
     $('#rehab4').click(function() { bootbox.alert('<img src="quantum2_assets/img/rehab/rehab smart balance.jpg">'); });
     $('#admin').click(function() { bootbox.alert('<img src="quantum2_assets/img/administrator.jpg">').addClass("largeWidth"); });
+    $('#rehab5').click(function() { bootbox.alert('<img src="quantum2_assets/img/rehab/ rehab dtail whatever.jpg">').addClass("largeWidth"); });
+    $('#rehab6').click(function() { bootbox.alert('<img src="quantum2_assets/img/rehab/rehab gear.jpg">').addClass("largeWidth"); });
+    $('#rehab7').click(function() { bootbox.alert('<img src="quantum2_assets/img/rehab/rehab 5.jpg">').addClass("largeWidth"); });
+    $('#rehab8').click(function() { bootbox.alert('<img src="quantum2_assets/img/rehab/rehab 7.jpg">').addClass("largeWidth"); });
 
     }
     var $itemsHolder = $('ul.thumbnails');
@@ -196,13 +200,13 @@
     $('ul.filter li').click(function(e) {
     e.preventDefault();
     $filterClass = $(this).attr('data-value');
-      if($filterClass == 'all'){ var $filters = $itemsClone.find('li'); }
-      else { var $filters = $itemsClone.find('li[data-type='+ $filterClass +']'); }
-      $itemsHolder.quicksand(
-        $filters,
-        { duration: 1000 },
-        gallery
-        );
+    if($filterClass == 'all'){ var $filters = $itemsClone.find('li'); }
+    else { var $filters = $itemsClone.find('li[data-type='+ $filterClass +']');}
+    $itemsHolder.quicksand(
+      $filters,
+      { duration: 1000 },
+      gallery
+      );
     });
     $(document).ready(gallery);
 </script>
