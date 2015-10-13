@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="https://www.mogl.com/mstatic/partner/mogl.js" type="text/javascript"></script>
+  <link href="master.css" rel="stylesheet"></link>
+  <link href="square/blue.css" rel="stylesheet"></link>
+  <script src="icheck.min.js" type="text/javascript"></script>
+</head>
+<body>
+  <div class="supported-cards-container">
+    <div class="supported-cards--text"></div>
+    <ul class="supported-cards">
+      <li class="supported-cards--icon visa-icon"></li>
+      <li class="supported-cards--icon mc-icon"></li>
+      <li class="supported-cards--icon amex-icon"></li>
+    </ul>
+  </div>
+  <form class="centered-text" id="testForm" name="testForm">
+    <div class="field-container" id="card-number"></div>
+    <div class="authorization">
+      <ul class="input__credit-card">
+        <li class="pull-left">
+          <label class="checkbox--label">
+            <input class="checkbox" type="checkbox">
+              I AGREE TO THE TERMS
+            </input>
+          </label>
+        </li>
+        <li class="pull-right submit-container">
+          <input class="btn btn__credit-card" id="send" type="submit" value="SUBMIT"></input>
+          <img class="ajax-loader" src="ajax-loader.gif">
+        </li>
+      </ul>
+      <p>
+        I authorize Wisely, its participating merchants, third party service providers, rewards partners, and providers of payment card network and processing services, to obtain, provide and use my payment and transaction information related to my purchases at participating merchants to calculate my points, to redeem rewards and to facilitate and make Wisely available to me; and (ii) I acknowledge and agree that Wisely may share details of my Wisely qualifying transactions at participating merchants with such merchants and third parties as further described in the Terms and Conditions and Privacy Policy.
+      </p>
+    </div>
+  </form>
+</body>
+
+<script>
+  var mogl_success = function(result){
+    $(".ajax-loader").hide();
+    $(".btn__credit-card").css("color", "#fff")
+    $(".btn__credit-card").removeAttr('disabled')
+    
+    console.log("success");
+    console.log(result);
+  };
+
+  var mogl_error = function(result, stuff){
+    result = "invalid invalid invalid invalid invalid invalid invalid invalid "
+    if ($(".supported-cards--text").is(":hidden")) {
+      $(".supported-cards--text").html(result)
+      $(".supported-cards").fadeOut(200, function(){
+        $(".supported-cards--text").fadeIn(function(){
+          setTimeout(function(){
+            $(".supported-cards--text").fadeOut(function(){
+              $(".supported-cards").fadeIn()
+            })
+          }, 5000)
+        }).css('display','table-cell')
+      })
+    }
+
+    $(".ajax-loader").hide();
+    $(".btn__credit-card").css("color", "#fff")
+    $(".btn__credit-card").removeAttr('disabled')
+
+    console.log("error");
+    console.log(result);
+  };
+
+  Mogl.setup("bf5e9be3-c306-4813-b47d-12ef4f413b11", "custom", {
+    id: "testForm",
+    onRegistered: mogl_success,
+    onError: mogl_error,
+    url: "https://test.mogl.com",
+    fields: {
+      userDetails: "{{{mogl_user_details}}}",
+      styles: {
+        "input" : {
+          "font-size": "14px" 
+        }
+      },
+      cardNumber: {
+        selector: '#card-number'
+      }
+    }
+  });
+
+  $(document).ready(function(){
+    $('input').iCheck({
+      checkboxClass: 'icheckbox_square-blue'
+    });
+  })
+
+  $(".btn__credit-card").attr('disabled', 'disabled')
+  $('input').iCheck('uncheck');
+
+  $('input').on('ifChecked', function(){
+    $(".btn__credit-card").removeAttr('disabled')
+    $(".btn__credit-card").css("background", "#3b95d2")
+    $(".btn__credit-card").css("cursor", "pointer")
+  })
+
+  $('input').on('ifUnchecked', function(){
+    $(".btn__credit-card").attr('disabled', 'disabled')
+    $(".btn__credit-card").css("background", "#ddd")
+    $(".btn__credit-card").css("cursor", "default")
+  })
+
+  $(".btn__credit-card").click(function(){
+    $(".ajax-loader").show();
+    $(".btn__credit-card").css("color", "#3b95d2")
+  })
+</script>
