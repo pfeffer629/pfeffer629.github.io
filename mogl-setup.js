@@ -20,24 +20,6 @@ var mogl_error = function(result, stuff){
   console.log(result);
 };
 
-Mogl.setup("bf5e9be3-c306-4813-b47d-12ef4f413b11", "custom", {
-  id: "testForm",
-  onRegistered: mogl_success,
-  onError: mogl_error,
-  url: "https://test.mogl.com",
-  fields: {
-    userDetails: "{{{mogl_user_details}}}",
-    styles: {
-      "input" : {
-        "font-size": "14px" 
-      }
-    },
-    cardNumber: {
-      selector: '#card-number'
-    }
-  }
-});
-
 $(document).ready(function(){
   $('input').iCheck({
     checkboxClass: 'icheckbox_square-blue'
