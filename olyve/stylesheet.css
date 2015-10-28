@@ -51,12 +51,12 @@ table {
 /* FONTS */
 @font-face {
   font-family: DIN Condensed;
-  src: url(olyve/fonts/din_condensed_cyrillic.woff);
+  src: url(fonts/din_condensed_cyrillic.woff);
 }
 
 @font-face {
   font-family: Shree;
-  src: url(olyve/fonts/shreedev0714.woff);
+  src: url(fonts/shreedev0714.woff);
 }
 
 
@@ -356,6 +356,7 @@ p {
 
   .search-box {
     display: block;
+    line-height: 28px;
     margin: 5px auto;
   }
 
