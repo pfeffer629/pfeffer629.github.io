@@ -59,6 +59,10 @@ table {
   src: url(fonts/shreedev0714.woff);
 }
 
+li {
+  list-style: none;
+}
+
 
 /* STYLE */
 
@@ -67,6 +71,10 @@ table {
   font-weight: lighter;
   margin: 0 auto;
   max-width: 940px;
+}
+
+a {
+  color: #61cbd4;
 }
 
 h2 {
@@ -309,9 +317,18 @@ p {
   margin-left: 35px;
 }
 
+.footer-links a {
+  color: #fff;
+}
+
 .contact-info {
   float: right;
 }
+
+.contact-info a {
+  color: #fff;
+}
+
 .contact-info li:last-child{
   margin-right: 35px;
 }
@@ -326,15 +343,14 @@ p {
     text-align: center;
     width: 100%;
   }
-
-  .right-testimonials li:last-child {
-    display: none;
-  }
 }
 
 @media only screen and (max-width : 768px) {
-
   .testimonial-text-bottom {
+    display: none;
+  }
+
+  .right-testimonials li:last-child {
     display: none;
   }
 
