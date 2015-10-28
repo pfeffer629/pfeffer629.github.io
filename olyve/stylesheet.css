@@ -103,7 +103,7 @@ p {
   float: left;
   font-size: 20px;
   height: 27px;
-  line-height: 27px;
+  line-height: 24px;
   text-align: center;
   width: 95px;
 }
@@ -112,7 +112,7 @@ p {
   font-size: 20px;
   float: right;
   height: 27px;
-  line-height: 27px;
+  line-height: 24px;
   margin-right: 49px;
   margin-top: 34px;
   text-align: center;
