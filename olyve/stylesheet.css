@@ -77,6 +77,11 @@ a {
   color: #61cbd4;
 }
 
+a:hover {
+  color: #61cbd4;
+  text-decoration: none;
+}
+
 h2 {
   color: #61cbd4;
   font-size: 30px;
@@ -167,7 +172,7 @@ p {
 }
 
 .large-tile-text p {
-  padding-top: 10px;
+  padding-top: 3px;
 }
 
 .small-tile-row {
@@ -205,8 +210,8 @@ p {
 }
 
 .testimonial-text {
-  position: absolute;
   left:0;
+  position: absolute;
   top: 0;
   width: 100%;
 }
@@ -214,6 +219,11 @@ p {
 .testimonial-text ul {
   margin-top: 80px;
   width: 40%;
+}
+
+.testimonial-text li {
+  background-color:rgba(0, 0, 0, 0.35);
+  padding: 15px;
 }
 
 .left-testimonials {
@@ -231,6 +241,10 @@ p {
 .testimonial-text li {
   margin: 0 auto;
   margin-top: 40px;
+}
+
+.testimonial-text p {
+  font-size: 18px;
 }
 
 .content-text {
