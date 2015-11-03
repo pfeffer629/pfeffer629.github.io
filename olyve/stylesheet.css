@@ -222,25 +222,43 @@ p {
 }
 
 .testimonial-text li {
-  background-color:rgba(0, 0, 0, 0.35);
+  background-color:rgba(0, 0, 0, 0.25);
   padding: 15px;
 }
 
 .left-testimonials {
   float: left;
   margin-left: 70px;
-
 }
 
 .right-testimonials {
   float: right;
   margin-right: 70px;
-
 }
 
 .testimonial-text li {
   margin: 0 auto;
   margin-top: 40px;
+}
+
+@media only screen and (max-width: 992px) {
+  .left-testimonials li:last-child {
+    margin-top: 10px;
+  }
+
+  .right-testimonials li {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .left-testimonials li:last-child {
+    margin-top: 20px;
+  }
+
+  .right-testimonials li {
+    margin-top: 20px;
+  }
 }
 
 .testimonial-text p {
