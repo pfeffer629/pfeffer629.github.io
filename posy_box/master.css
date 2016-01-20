@@ -1,0 +1,47 @@
+body, div, img {
+  font-size: 0;
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.mobile {
+  display: none;
+}
+
+div {
+  width: 100%;
+}
+
+img {
+  width: 50%;
+}
+
+.submit-row {
+  background-color: #e8e6e3;
+}
+
+.submit {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 0;
+  width: auto;
+}
+
+@media only screen and (max-width : 767px) {
+  .mobile {
+    display: block;
+  }
+
+  .mobile .submit {
+    width: 70%;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .web {
+    display: none;
+  }
+}
