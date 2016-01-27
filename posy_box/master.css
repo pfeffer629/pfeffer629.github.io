@@ -26,12 +26,17 @@ img {
 
 .submit-row {
   background-color: #e8e6e3;
+  display: inline-block;
+  text-align: center;
+}
+
+.submit-row a {
+  display: inline-block;
+  margin: 20px 0;
 }
 
 .submit {
-  display: block;
-  margin: 0 auto;
-  padding: 20px 0;
+  display: inline-block;
   width: auto;
 }
 
@@ -40,8 +45,13 @@ img {
     display: block;
   }
 
-  .mobile .submit {
+  .mobile .submit-row a {
+    display: inline-block;
     width: 70%;
+  }
+
+  .mobile .submit {
+    width: 100%;
   }
 
   img {
