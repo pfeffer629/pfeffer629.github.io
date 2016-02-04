@@ -17,6 +17,8 @@ body, div, img {
 
 .header {
   margin-top: 10px;
+  max-width: 1440px;
+  
 }
 
 .logo {
