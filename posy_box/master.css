@@ -87,6 +87,11 @@ img {
   .message-container {
     display: none;
   }
+  .logo {
+    width: 13vw;
+    float: left;
+    margin: 1vw 0 1vw 1vw;
+  }
 }
 
 @media only screen and (max-width : 767px) {
