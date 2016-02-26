@@ -8,10 +8,6 @@
   src: url(Karla-Regular.ttf);
 }
 
-html {
-  font-size: 10px;
-}
-
 body, div, img {
   font-size: 0;
   line-height: 0;
