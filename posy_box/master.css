@@ -15,16 +15,18 @@ body, div, img {
   padding: 0;
 }
 
-.header {
+.container {
+  margin: 0 auto;
   max-width: 1440px;
 }
 
-.logo-container {
+.header {
   display: inline-block;
-  width: auto;
+  height: auto;
 }
 
-.logo {
+.logo-container {
+  float: left;
   width: 13vw;
   padding: 0;
   margin: .75vw 0 .5vw 5vw;
@@ -32,6 +34,12 @@ body, div, img {
 
 .logo img {
   width: 100%;
+}
+
+.nav-container {
+  float: right;
+  min-height: 6vw;
+  width: 70%;
 }
 
 .message-container {
@@ -42,7 +50,6 @@ body, div, img {
   font-family: "Karla Regular";
   font-size: 2vw;
   font-style: italic;
-  margin-top: 6vw;
   min-height: 4vw;
   padding-right: 1vw;
   color: #76e3ea;
@@ -81,6 +88,25 @@ img {
 .submit {
   display: inline-block;
   width: auto;
+}
+
+@media only screen and (min-width: 1440px) {
+  .nav-container {
+    min-height: 10rem;
+  }
+
+  .logo-container {
+    width: 20rem;
+    padding: 0;
+    margin: .5rem 0 .5rem 6rem;
+  }
+
+  .message-container {
+    line-height: 3rem;
+    font-size: 3rem;
+    min-height: 4rem;
+    padding-right: 1rem;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
