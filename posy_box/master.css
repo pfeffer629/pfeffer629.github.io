@@ -90,30 +90,11 @@ img {
   width: auto;
 }
 
-@media only screen and (min-width: 1440px) {
-  .nav-container {
-    min-height: 10rem;
-  }
-
-  .logo-container {
-    width: 20rem;
-    padding: 0;
-    margin: .5rem 0 .5rem 6rem;
-  }
-
-  .message-container {
-    line-height: 3rem;
-    font-size: 3rem;
-    min-height: 4rem;
-    padding-right: 1rem;
-  }
-}
-
 @media only screen and (max-width: 1024px) {
   .message-container {
     display: none;
   }
-  .logo {
+  .logo-container {
     width: 13vw;
     float: left;
     margin: 1vw 0 1vw 1vw;
@@ -141,5 +122,24 @@ img {
 
   .web {
     display: none;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .nav-container {
+    min-height: 10rem;
+  }
+
+  .logo-container {
+    width: 20rem;
+    padding: 0;
+    margin: .5rem 0 .5rem 6rem;
+  }
+
+  .message-container {
+    line-height: 3rem;
+    font-size: 3rem;
+    min-height: 4rem;
+    padding-right: 1rem;
   }
 }
