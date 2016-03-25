@@ -101,6 +101,10 @@ html {
   padding-bottom: 2em;
 }
 
+.left-text img{
+  width: 100%;
+}
+
 .left-header {
   color: #cc99ff;
   font-family: "Oswald-Bold";
