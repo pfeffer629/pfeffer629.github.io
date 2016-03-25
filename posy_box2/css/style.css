@@ -31,13 +31,17 @@ html {
 }
 
 .nav-container div {
-  color: #c9f;
   font-family: "Oswald Bold";
   font-weight: 100;
   float: right;
   margin-left: 3vw;
   font-size: 2.2vw;
   line-height: 5vw;
+}
+
+.nav-container a {
+  color: #c9f;
+  text-decoration: none;
 }
 
 .logo-container {
@@ -81,7 +85,7 @@ html {
 }
 
 .product-info {
-  padding: 4rem 2rem 6rem 6rem;
+  padding: 0rem 2rem 6rem 6rem;
   position: relative;
   min-height: 35rem;
 }
@@ -111,14 +115,13 @@ html {
   font-family: "Oswald-Bold";
   font-weight: 100;
   min-height: 3rem;
-  text-transform: uppercase;
   padding: .5rem 0;
   padding-right: 15px;
 
 }
 
 .product-full-desc {
-  color: #bbb;
+  color: #333;
   padding-right: 2rem;
   font-family: "Karla Regular";
   font-size: 1.4rem;
@@ -200,6 +203,10 @@ input[type="submit"]{
   color: #fff;
 }
 
+.CTA a {
+  text-decoration: none;
+}
+
 @media (min-width: 1024px) {
   .product-full-desc {
     font-size: 1.9rem;
@@ -211,11 +218,10 @@ input[type="submit"]{
   }
 
   .pickme {
-    padding: 0 3rem;
+    padding: 0.5rem 7.5rem;
     font-family: "Oswald-Bold";
-    font-size: 5.5rem;
+    font-size: 4.5rem;
     width: auto;
-    margin-left: 1rem;
     line-height: 5.7rem;
     border-width: .7rem;
   }
@@ -233,5 +239,19 @@ input[type="submit"]{
   .nav-container {
     width: 70%;
     float: right;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .app-container {
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .nav-container {
+    min-height: 10rem;
   }
 }
