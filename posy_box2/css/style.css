@@ -254,4 +254,22 @@ input[type="submit"]{
   .nav-container {
     min-height: 10rem;
   }
+  .message-container {
+    line-height: 3rem;
+    font-size: 3rem;
+    min-height: 4rem;
+    padding-right: 1rem;
+  }
+
+  .logo-container {
+    width: 20rem;
+    padding: 0;
+    margin: .5rem 0 .5rem 6rem;
+  }
+
+  .topic a{
+    margin-left: 4rem;
+    font-size: 3.2rem;
+    line-height: 9rem;
+  }
 }
