@@ -136,11 +136,10 @@ html, body {
   color: #ee741d;
   font-family: "Oswald-Bold";
   font-weight: 100;
-  margin-top: -10px;
+  margin-top: -12px;
   min-height: 3rem;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
   padding-right: 15px;
-
 }
 
 .product-full-desc {
@@ -268,6 +267,12 @@ input[type="submit"]{
     width: auto;
     line-height: 5.7rem;
     border-width: .7rem;
+  }
+}
+
+@media only screen and (max-width: 999px) {
+  .product-name {
+    margin-top: 0;
   }
 }
 
