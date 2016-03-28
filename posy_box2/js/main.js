@@ -25,12 +25,6 @@ $(document).ready(function() {
     else if($('li.third').hasClass('current')){
       $('li.third').removeClass('current')
       $('img.third').removeClass('current')
-      $('li.fourth').addClass('current')
-      $('img.fourth').addClass('current')
-    }
-    else if($('li.fourth').hasClass('current')){
-      $('li.fourth').removeClass('current')
-      $('img.fourth').removeClass('current')
       $('li.first').addClass('current')
       $('img.first').addClass('current')
     }
@@ -57,13 +51,4 @@ $(document).ready(function() {
     $('li.third').addClass('current')
     $('img.third').addClass('current')
   })
-
-  $('li.fourth').click(function(){
-    $('li').removeClass('current')
-    $('img').removeClass('current')
-    $('li.fourth').addClass('current')
-    $('img.fourth').addClass('current')
-  })
-
-
 })

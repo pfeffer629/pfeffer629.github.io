@@ -136,6 +136,7 @@ html, body {
   color: #ee741d;
   font-family: "Oswald-Bold";
   font-weight: 100;
+  margin-top: -10px;
   min-height: 3rem;
   padding: .5rem 0;
   padding-right: 15px;
