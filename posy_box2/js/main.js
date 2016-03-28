@@ -9,34 +9,6 @@ $(document).ready(function() {
     }
    }).scroll();
 
-  // function nextImage(){
-  //   alert('dsafsad')
-  //   if($('li.first'.hasClass('current')){
-  //     $('li.first').removeClass('current')
-  //     $('img.first').removeClass('current')
-  //     $('li.second').addClass('current')
-  //     $('img.second').addClass('current')
-  //   }
-  //   else if($('li.second'.hasClass('current')){
-  //     $('li.second').removeClass('current')
-  //     $('img.second').removeClass('current')
-  //     $('li.third').addClass('current')
-  //     $('img.third').addClass('current')
-  //   }
-  //   else if($('li.third'.hasClass('current')){
-  //     $('li.third').removeClass('current')
-  //     $('img.third').removeClass('current')
-  //     $('li.fourth').addClass('current')
-  //     $('img.fourth').addClass('current')
-  //   }
-  //   else if($('li.fourth'.hasClass('current')){
-  //     $('li.fourth').removeClass('current')
-  //     $('img.fourth').removeClass('current')
-  //     $('li.first').addClass('current')
-  //     $('img.first').addClass('current')
-  //   }
-  // }
-  
   setInterval(function(){
     if($('li.first').hasClass('current')){
       $('li.first').removeClass('current')
