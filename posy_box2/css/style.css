@@ -124,7 +124,7 @@ html, body {
 
 .left-header {
   color: #cc99ff;
-  font-family: "Oswald-Bold";
+  font-family: "Oswald Bold";
   font-size: 3.6rem;
   padding-bottom: 2rem;
 }
@@ -134,7 +134,7 @@ html, body {
   line-height: 1.2;
   vertical-align: middle;
   color: #ee741d;
-  font-family: "Oswald-Bold";
+  font-family: "Oswald Bold";
   font-weight: 100;
   margin-top: -12px;
   min-height: 3rem;
@@ -205,7 +205,7 @@ input[type="submit"]{
   border: 2px solid #c084e9;
   border-radius: 8px;
   color: #c084e9;
-  font-family: "Oswald-Bold";
+  font-family: "Oswald Bold";
   font-weight: 100;
   font-size: 3rem;
   width: 380px;
@@ -262,7 +262,7 @@ input[type="submit"]{
 
   .pickme {
     padding: 0.5rem 7.5rem;
-    font-family: "Oswald-Bold";
+    font-family: "Oswald Bold";
     font-size: 4.5rem;
     width: auto;
     line-height: 5.7rem;
