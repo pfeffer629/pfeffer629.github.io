@@ -14,12 +14,23 @@
   src: url(../fonts/Karla-Regular.ttf);
 }
 
+html, body {
+  margin: 0 auto;
+
+  max-width: 1440px;
+  overflow-x: hidden;
+}
+
 html {
   font-size: 10px;
 }
 
 body {
   font-size: 14px;
+}
+
+.row {
+  max-width: 1440px;
 }
 
 .container {
@@ -40,6 +51,16 @@ body {
 
 ul.pull-right li {
   float: right;
+}
+
+.paralax {
+  position: absolute;
+  margin: 20px;
+}
+
+.header li.border-btn {
+  border: 4px solid #90daeb;
+  margin-top: 0.8vw;
 }
 
 .header li {
@@ -65,7 +86,9 @@ ul.pull-right li {
   font-size: 62px;
   height: 498px;
   letter-spacing: 10px;
+  margin: 0;
   padding-top: 20px;
+  width: 100%;
 }
 
 .shop-row {
@@ -73,8 +96,9 @@ ul.pull-right li {
 }
 
 .shop-row div {
-  background-color: #90daeb;
-  color: #fff;
+  border: 4px solid #90daeb;
+  background-color: #fff;
+  color: #90daeb;
   display: inline-block;
   font-family: "DIN Condensed";
   font-size: 45px;
@@ -82,10 +106,32 @@ ul.pull-right li {
   width: 30%;
 }
 
+@media only screen and (min-width : 1440px) {
+  .header li {
+    margin: 1vw 0vw;
+  }
+}
+
+@media only screen and (max-width : 1199px) {
+  .paralax {
+    display: none;
+  }
+}
+
+@media only screen and (max-width : 767px) {
+  .quote {
+    font-size: 48px;
+   height: auto;
+  }
+  .shop-row div {
+    font-size: 24px;
+  }
+}
+
 @media only screen and (max-width : 480px) {
   .quote {
     font-size: 48px;
-    height: 600px;
+    height: auto;
   }
 }
 

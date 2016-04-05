@@ -1,5 +1,9 @@
 <!doctype html>
 <!-- Start Time: 11:03 AM -->
+<!-- Start Time: 1:22 PM -->
+
+<!-- Start Time: 8:52 PM -->
+
 
 <html class="no-js" lang="">
   <head>
@@ -20,6 +24,14 @@
     <link rel="stylesheet" href="OlyveCustomers/css/normalize.css">
     <link rel="stylesheet" href="OlyveCustomers/css/style.css">
     </script>
+    <script>
+      $(window).on('scroll', function () {
+      var scrollPos = $(document).scrollTop();
+      $('.paralax').css({
+        top: scrollPos + ($('.header').outerHeight())
+      });
+    }).scroll();
+    </script>
   </head>
   <body>
     <div class="container">
@@ -28,7 +40,7 @@
           <ul class="pull-left">
             <li>SHOP</li>
             <li>THE OLYVE EXPERIENCE</li>
-            <li>FROM OUR CUSTOMERS</li>
+            <li class="border-btn">FROM OUR CUSTOMERS</li>
           </ul>
           <img src="OlyveCustomers/img/olyve.png">
           <ul class="pull-right">
@@ -38,6 +50,7 @@
           </ul>
         </div>
       </div>
+      <img src="OlyveCustomers/img/olyve-icon.png" class="paralax">
       <div class="row quote quote-1">
         <div class="col-lg-12">
           <div class="col-lg-6 col-md-6 col-lg-offset-6 col-md-offset-6">
@@ -98,7 +111,7 @@
         <div class="col-lg-12 col-md-12 col-sm-12">
           <div class="shop-row">
             <div>
-              THE OLIVE EXPERIENCE
+              THE OLYVE EXPERIENCE
             </div>
             <div>
               SHOP THE COLLECTION
