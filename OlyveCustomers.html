@@ -3,6 +3,15 @@
 <!-- Start Time: 1:22 PM -->
 
 <!-- Start Time: 8:52 PM -->
+<!-- End Time: 9:28 PM -->
+
+<!-- Start Time: 7:11 PM -->
+<!-- Start Time: 7:34 PM -->
+
+<!-- Start Time: 10:19 AM -->
+<!-- Start Time: 11:03 AM -->
+
+<!-- Start Time: 12:02 PM -->
 
 
 <html class="no-js" lang="">
@@ -23,6 +32,19 @@
 
     <link rel="stylesheet" href="OlyveCustomers/css/normalize.css">
     <link rel="stylesheet" href="OlyveCustomers/css/style.css">
+    <script>
+      $(document).ready(function(){
+        $('.glyphicon-menu-hamburger').click(function(){
+          if ($('.navbar-collapse').hasClass('in')) {
+            $('.navbar-collapse').removeClass('in');
+            $('.navbar-collapse').addClass('collapse');
+          }
+          else {
+            $('.navbar-collapse').removeClass('collapse');
+            $('.navbar-collapse').addClass('in');
+          }
+        })
+      })
     </script>
     <script>
       $(window).on('scroll', function () {
@@ -37,18 +59,29 @@
     <div class="container">
       <div class="header row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <ul class="pull-left">
-            <li>SHOP</li>
-            <li>THE OLYVE EXPERIENCE</li>
-            <li class="border-btn">FROM OUR CUSTOMERS</li>
+          <ul class="main-header pull-left">
+            <a href=""><li>SHOP</li></a>
+            <a href=""><li>THE OLYVE EXPERIENCE</li></a>
+            <a href=""><li class="border-btn">FROM OUR CUSTOMERS</li></a>
           </ul>
           <img src="OlyveCustomers/img/olyve.png">
-          <ul class="pull-right">
-            <li>SOCIAL</li>
-            <li>CONTACT</li>
-            <li>TRACK</li>
+          <ul class="main-header pull-right">
+            <a href="#social"><li>SOCIAL</li></a>
+            <a href="https://olyve.com/contact"><li>CONTACT</li></a>
+            <a href="https://olyve.com/track"><li>TRACK</li></a>
           </ul>
         </div>
+        <div class="navbar-collapse collapse" id="olyve-navbar-collapse" >
+          <ul class="nav navbar-nav">
+            <li><a href="#product-browse">shop</a></li>
+            <li><a ng-href="#social" href="#social">the olyve experience</a></li>
+            <li><a ng-href="#social" href="#social">from our customers</a></li>
+            <li><a ng-href="track" href="track">Track</a></li>
+            <li><a ng-href="#social" href="#social">social</a></li>
+            <li><a ng-href="contact" href="contact">contact</a></li>
+          </ul>
+        </div>
+        <button type="button" class="navbar-toggle collapsed"><i class="glyphicon glyphicon-menu-hamburger"></i></button>
       </div>
       <img src="OlyveCustomers/img/olyve-icon.png" class="paralax">
       <div class="row quote quote-1">
