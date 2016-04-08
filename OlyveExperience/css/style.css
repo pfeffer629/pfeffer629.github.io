@@ -204,7 +204,7 @@ nav.navbar-default .navbar-nav>li>a {
 .quote {
   color: #fff;
   font-family: "DIN Condensed";
-  font-size: 62px;
+  font-size: 51px;
   height: 498px;
   letter-spacing: 10px;
   margin: 0;
@@ -262,12 +262,12 @@ p {
 }
 
 .quote-name {
-  font-size: 37.5px;
+  font-size: 24px;
 }
 
 .quote-text {
   font-family: "Karla Regular";
-  font-size: 22.5px;
+  font-size: 24px;
   letter-spacing: normal;
 }
 
