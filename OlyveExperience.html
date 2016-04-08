@@ -1,0 +1,235 @@
+<!doctype html>
+<!-- Start Time: 11:03 AM -->
+<!-- Start Time: 1:22 PM -->
+
+<!-- Start Time: 8:52 PM -->
+<!-- End Time: 9:28 PM -->
+
+<!-- Start Time: 7:11 PM -->
+<!-- Start Time: 7:34 PM -->
+
+<!-- Start Time: 10:19 AM -->
+<!-- Start Time: 11:03 AM -->
+
+<!-- Start Time: 12:02 PM -->
+
+
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous">
+    </script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="OlyveExperience/css/normalize.css">
+    <link rel="stylesheet" href="OlyveExperience/css/style.css">
+    <script>
+      $(document).ready(function(){
+        $('.glyphicon-menu-hamburger').click(function(){
+          if ($('.navbar-collapse').hasClass('in')) {
+            $('.navbar-collapse').removeClass('in');
+            $('.navbar-collapse').addClass('collapse');
+          }
+          else {
+            $('.navbar-collapse').removeClass('collapse');
+            $('.navbar-collapse').addClass('in');
+          }
+        })
+      })
+    </script>
+    <script>
+      $(window).on('scroll', function () {
+      var scrollPos = $(document).scrollTop();
+      $('.paralax').css({
+        top: scrollPos + ($('.header').outerHeight())
+      });
+    }).scroll();
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <ul class="main-header pull-left">
+            <a href=""><li>SHOP</li></a>
+            <a href=""><li>THE OLYVE EXPERIENCE</li></a>
+            <a href=""><li class="border-btn">FROM OUR CUSTOMERS</li></a>
+          </ul>
+          <img src="OlyveExperience/img/olyve.png">
+          <ul class="main-header pull-right">
+            <a href="#social"><li>SOCIAL</li></a>
+            <a href="https://olyve.com/contact"><li>CONTACT</li></a>
+            <a href="https://olyve.com/track"><li>TRACK</li></a>
+          </ul>
+        </div>
+        <div class="navbar-collapse collapse" id="olyve-navbar-collapse" >
+          <ul class="nav navbar-nav">
+            <li><a href="#product-browse">shop</a></li>
+            <li><a ng-href="#social" href="#social">the olyve experience</a></li>
+            <li><a ng-href="#social" href="#social">from our customers</a></li>
+            <li><a ng-href="track" href="track">Track</a></li>
+            <li><a ng-href="#social" href="#social">social</a></li>
+            <li><a ng-href="contact" href="contact">contact</a></li>
+          </ul>
+        </div>
+        <button type="button" class="navbar-toggle collapsed"><i class="glyphicon glyphicon-menu-hamburger"></i></button>
+      </div>
+      <img src="OlyveExperience/img/olyve-icon.png" class="paralax">
+      <div class="row quote quote-1">
+        <div class="col-lg-12">
+          <div class="col-lg-7 col-md-8 col-lg-offset-1">
+            <p>HANCRAFTED</p>
+            <p>WITH LOVE.</p>
+            <div class="quote-text">
+              We design gifts that tell a story and speak to every occasion or personality. Unique yet accessible, modern without being trendy, we play with vibrant colors that catch the eye and enliven the spirit in fun and unexpected ways. Handcrafted, using fully bloomed flowers from all of our favorite farms, each bouquet is paired with our very own designer vase.
+            </div>
+            <div class="quote-name">A FRESH TAKE ON FLORAL DESIGN.</div>
+          </div>
+        </div>
+      </div>
+      <div class="row quote quote-2">
+        <div class="col-lg-12">
+          <div class="col-lg-8 col-md-8 col-lg-offset-4 col-md-offset-4">
+            DELIVERED
+            <br>
+            WITH CARE.
+            <div class="quote-text">
+              Discover a more beautiful way to send 
+              and receive flowers. Bouquets are arranged 
+              fully bloomed in our designer vases and 
+              hand delivered in our signature gift box—
+              so they’re perfectly framed and ready to 
+              be enjoyed. Upon opening, the recipient 
+              is presented with a greeting card featuring 
+              stunning artwork, and a message from you. 
+              Gift box and delivery are always included.
+            </div>
+            <div class="quote-name">SPECIAL MOMENTS, PERFECTLY PACKAGED.</div>
+          </div>
+        </div>
+      </div>
+      <div class="row quote quote-3">
+        <div class="col-lg-12">
+          <div class="col-lg-7 col-md-8 col-lg-offset-1">
+            <p>BEAUTIFUL <br>
+            CONNECTIONS<br>
+            IN BETWEEN.</p>
+            <div class="quote-text">
+              Follow your bouquet on a journey from order 
+              to delivery and express your affection in a 
+              special video or picture message. To personalize 
+              your delivery, simply upload a photo or video 
+              and we will deliver it to your recipient as 
+              their delivery is made.
+            </div>
+            <div class="quote-name">THE CLOSEST THING TO BEING THERE IN PERSON.</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="shop-row">
+            <div>
+              THE OLYVE EXPERIENCE
+            </div>
+            <div>
+              SHOP THE COLLECTION
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row social-message" id="social">
+        <div class="col-xs-12 full-width">
+          <span class="section-header">We're social!</span>
+        </div>
+      </div>
+      <div class="row social-message-icons">
+        <div class="col-xs-12 text-center">
+          <a target="_blank" href="https://facebook.com/olyveflowers">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a target="_blank" href="https://instagram.com/olyveflowers">
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a target="_blank" href="https://pinterest.com/olyveflowers">
+            <i class="fa fa-pinterest-p"></i>
+          </a>
+          <a target="_blank" href="https://twitter.com/olyveflowers">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="newsletter">
+            <p> Use #OPENOLYVE to be featured. Sign up to be the first to hear about where we are launching next!</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <div class="newsletter-form">
+            <form class="form-inline" name="newsletterForm">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12">
+                  <label class="email-label">LET'S GET TO KNOW EACH OTHER</label>
+                  <div class="form-group email-input">
+                    <input class="form-control" id="userMail" name="userMail" placeholder="Please enter your email" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" ng-maxlength="254" required="">
+                  </div>
+                  <div class="form-group">
+                    <a class="submit" id="submitNewsletter">SUBMIT</a>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-footer">
+        <div class="row">
+          <div class="col-xs-6">
+            <div class="row">
+              <div class="col-md-12 text-left">Copyright 2016, Olyve Inc</div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 text-left">
+                <a href="privacy">privacy terms</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 text-left">
+                <a href="codeofconduct">Code of Conduct</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <div class="row">
+              <div class="col-md-12 text-right">
+                <a href="tel:844-35-OLYVE">844-35-OLYVE</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 text-right">
+                <a href="mailto:service@olyve.com">service@olyve.com</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
