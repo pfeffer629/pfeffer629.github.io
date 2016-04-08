@@ -242,7 +242,7 @@ nav.navbar-default .navbar-nav>li>a {
 @media only screen and (max-width : 767px) {
   .quote {
     font-size: 48px;
-   height: auto;
+    height: auto;
   }
   .shop-row div {
     font-size: 24px;
@@ -267,7 +267,7 @@ p {
 
 .quote-text {
   font-family: "Karla Regular";
-  font-size: 24px;
+  font-size: 20px;
   letter-spacing: normal;
 }
 
