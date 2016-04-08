@@ -133,7 +133,7 @@ nav>li>a {
 }
 
 .navbar-collapse.collapse {
-  /*display: none!important;*/
+  display: none!important;
 }
 
 .navbar-collapse.in {
@@ -151,6 +151,10 @@ nav.navbar-default .navbar-nav>li>a {
   margin: 5px;
   font-size: 2.2rem;
   cursor: pointer;
+}
+
+.header .main-header.pull-right li {
+  float: right;
 }
 
 @media (min-width: 1024px) {
@@ -172,6 +176,11 @@ nav.navbar-default .navbar-nav>li>a {
   .header .main-header {
     padding: 0;
   }
+
+  .navbar-collapse {
+    display: none;
+  }
+
   .header .main-header li {
     font-size: 2.3rem;
     margin: 2rem 2rem;
@@ -183,7 +192,6 @@ nav.navbar-default .navbar-nav>li>a {
 .navbar-nav {
   margin: 7.5px -15px;
   padding: 0 15px;
-  
 }
 
 
