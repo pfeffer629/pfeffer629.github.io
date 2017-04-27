@@ -21,7 +21,7 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "ershad.ghaderi@gmail.com";
+        $recipient = "mark@ninefolddesign.com";
 
         // Set the email subject.
         $subject = "New contact from $name";
@@ -39,7 +39,8 @@
             // Set a 200 (okay) response code.
             // http_response_code(200);
             echo "Thank You! Your message has been sent.";
-        } else {
+        } 
+        else {
             // Set a 500 (internal server error) response code.
             // http_response_code(500);
             echo "Oops! Something went wrong and we couldn't send your message.";
